@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD6DEB6A-998B-45D5-BBB8-10C6C765FB02</string>
+	<key>IDESourceControlProjectName</key>
+	<string>thiefTD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2FBEDAA6A8C46B748E1BFE3D0D972DB667092887</key>
+		<string>https://github.com/fx0883/BanditsComing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>thiefTDFree/proj.ios_mac/thiefTD.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2FBEDAA6A8C46B748E1BFE3D0D972DB667092887</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fx0883/BanditsComing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2FBEDAA6A8C46B748E1BFE3D0D972DB667092887</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2FBEDAA6A8C46B748E1BFE3D0D972DB667092887</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BanditsComing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
