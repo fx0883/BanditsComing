@@ -17,6 +17,8 @@
 USING_NS_CC;
 USING_NS_CC_EXT;
 
+
+
 class PopupLayer : public CCLayer{
 public:
     PopupLayer();
@@ -24,9 +26,9 @@ public:
     virtual bool init();
     
     //需要重写触摸注册函数，重新给定触摸级别
-  //  virtual void registerWithTouchDispatcher();
+    //  virtual void registerWithTouchDispatcher();
     //重写触摸函数，返回true，屏蔽其它层，达到“模态”效果
-  //  bool ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent);
+    bool onTouchBegan(Touch *pTouch, Event *pEvent);
     
     //静态创建函数，创建一个弹出层，设置背景图片
     static PopupLayer* create(const char* backgroundImage);
@@ -48,7 +50,13 @@ public:
     
     CREATE_FUNC(PopupLayer);
     
+    void addChildAt(Node *node, float percentageX, float percentageY);
+    void addSliders();
+    
+
+    
 private:
+    
     void buttonCallBack(CCObject* pSender);
     
     //文字内容两边的空白区域

@@ -7,7 +7,20 @@
 //
 
 #include "PopupLayer.h"
-USING_NS_CC;
+#include "ui/CocosGUI.h"
+//#include "/workCode/BanditsComing/thiefTDFree/cocos2d/cocos/ui/UISlider.h"
+#include "SimpleAudioEngine.h"
+#include "extensions/GUI/CCControlExtension/CCControlSlider.h"
+#include "VisibleRect.h"
+#include "GameManager.h"
+using namespace cocos2d;
+using namespace cocos2d::ui;
+//using namespace cocos2d::experimental;
+
+
+
+
+
 
 // 构造函数中变量设初值
 PopupLayer::PopupLayer()
@@ -47,6 +60,12 @@ bool PopupLayer::init()
     setMenuButton(menu);  //set()方法
     
     setTouchEnabled(true);  //开启触摸响应
+    
+    setTouchMode(Touch::DispatchMode::ONE_BY_ONE);
+    //    setTouchPriority
+    // _touchListener->setSwallowTouches(false);
+    
+    
     return true;
 }
 
@@ -57,9 +76,9 @@ bool PopupLayer::init()
 //}
 
 //触摸函数ccTouchBegan，返回true
-//bool PopupLayer::ccTouchBegan( CCTouch *pTouch, CCEvent *pEvent ){
-//    return true;
-//}
+bool PopupLayer::onTouchBegan( Touch *pTouch, Event *pEvent ){
+    return true;
+}
 
 //创建一个弹出层，给背景精灵变量赋值
 PopupLayer* PopupLayer::create( const char* backgroundImage ){
@@ -125,9 +144,20 @@ void PopupLayer::buttonCallBack( CCObject* pSender ){
     this->removeFromParentAndCleanup(true);
 }
 
+void PopupLayer::addChildAt(Node *node, float percentageX, float percentageY)
+{
+    const Size size = VisibleRect::getVisibleRect().size;
+    node->setPosition(Point(percentageX * size.width, percentageY * size.height));
+    this->addChild(node);
+}
+
+
+
 //全部参数都设定好后，在运行时动态加载
 void PopupLayer::onEnter(){
     CCLayer::onEnter();
+    
+    
     
     CCSize winSize = CCDirector::sharedDirector()->getWinSize();
     CCPoint center = ccp(winSize.width/2, winSize.height/2);
@@ -149,6 +179,7 @@ void PopupLayer::onEnter(){
     //添加按钮，并根据Item的个数设置其位置
     this->addChild(getMenuButton());
     float btnWidth = contentSize.width / (getMenuButton()->getChildrenCount()+1);
+    float btnHeight = contentSize.height / (getMenuButton()->getChildrenCount()+1);
     Vector<Node*>& array = getMenuButton()->getChildren();
     //CCObject* pObj = NULL;
     int i = 0;
@@ -156,43 +187,46 @@ void PopupLayer::onEnter(){
     
     Vector<Node*>::iterator it;
     for(auto pObj : array){
-        pObj->setPosition(ccp(winSize.width/2 - contentSize.width/2 + btnWidth*(i+1),
-                                                    winSize.height/2 - contentSize.height/3));
+        pObj->setPosition(ccp(winSize.width/2,
+                              winSize.height/2 - contentSize.height/2+btnHeight*(i+1)));
         i++;
-
+        
     }
     
-//    CCARRAY_FOREACH(array, pObj)
-//    {
-//        CCNode* node = dynamic_cast<CCNode*>(pObj);
-//        node->setPosition(ccp(winSize.width/2 - contentSize.width/2 + btnWidth*(i+1),
-//                              winSize.height/2 - contentSize.height/3));
-//        i++;
-//    }
+    //    CCARRAY_FOREACH(array, pObj)
+    //    {
+    //        CCNode* node = dynamic_cast<CCNode*>(pObj);
+    //        node->setPosition(ccp(winSize.width/2 - contentSize.width/2 + btnWidth*(i+1),
+    //                              winSize.height/2 - contentSize.height/3));
+    //        i++;
+    //    }
     
     // 显示对话框标题
-//    if (getLabelTitle()){
-//        getLabelTitle()->setPosition(ccpAdd(center, ccp(0, contentSize.height/2 - 25.0f)));
-//        this->addChild(getLabelTitle());
-//    }
-//    
-//    //显示文本内容
-//    if (getLabelContentText()){
-//        CCLabelTTF* ltf = getLabelContentText();
-//        ltf->setPosition(center);
-//        ltf->setDimensions(CCSizeMake(contentSize.width - m_contentPadding*2, contentSize.height - m_contentPaddingTop));
-//        ltf->setHorizontalAlignment(kCCTextAlignmentLeft);
-//        this->addChild(ltf);
-//    }
+    //    if (getLabelTitle()){
+    //        getLabelTitle()->setPosition(ccpAdd(center, ccp(0, contentSize.height/2 - 25.0f)));
+    //        this->addChild(getLabelTitle());
+    //    }
+    //
+    //    //显示文本内容
+    //    if (getLabelContentText()){
+    //        CCLabelTTF* ltf = getLabelContentText();
+    //        ltf->setPosition(center);
+    //        ltf->setDimensions(CCSizeMake(contentSize.width - m_contentPadding*2, contentSize.height - m_contentPaddingTop));
+    //        ltf->setHorizontalAlignment(kCCTextAlignmentLeft);
+    //        this->addChild(ltf);
+    //    }
     
     //弹出效果
     CCSequence *popupActions = CCSequence::create(
-                                                  CCScaleTo::create(0.0, 0.0), 
+                                                  CCScaleTo::create(0.0, 0.0),
                                                   CCScaleTo::create(0.06, 1.05),
                                                   CCScaleTo::create(0.08, 0.95),
                                                   CCScaleTo::create(0.08, 1.0), NULL);
     this->runAction(popupActions);
 }
+
+
+
 
 //退出
 void PopupLayer::onExit(){

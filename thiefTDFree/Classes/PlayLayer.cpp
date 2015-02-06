@@ -16,6 +16,7 @@
 #include "cocos-ext.h"
 #include "SimpleAudioEngine.h" 
 #include "SettingScene.h"
+#include "LoadLevelinfo.h"
 #include "PopupLayer.h"
 
 USING_NS_CC_EXT;
@@ -191,20 +192,56 @@ void PlayLayer::menuSettingCallback(Ref* pSender)
     //Director::getInstance()->replaceScene(CCTransitionFade::create(0.5, SettingScene::createScene()));
     
     
-    PopupLayer* popup = PopupLayer::create("bg.png");
+    PopupLayer* popup = PopupLayer::create("600popup.png");
     // ContentSize是可选的设置，可以不设置，如果设置则把它当做9图缩放
-    popup->setContentSize(CCSizeMake(400, 360));
-    popup->setTitle("Message");
-    popup->setContentText("Most people... blunder round this city.", 20, 50, 150);
+    popup->setContentSize(CCSizeMake(300, 180));
+//    popup->setTitle("Message");
+//    popup->setContentText("Most people... blunder round this city.", 20, 50, 150);
     // 设置回调函数，回调传回一个CCNode以获取tag判断点击的按钮
     // 这只是作为一种封装实现，如果使用delegate那就能够更灵活的控制参数了
-//    popup->setCallBackFunc(this, callfuncN_selector(PlayLayer::menuSettingCallback));
+    popup->setCallBackFunc(this, callfuncN_selector(PlayLayer::controlCallback));
     //添加按钮，设置图片、文字，tag信息
-    popup->addButton("start_1.png", "start_1.png", "Ok", 0);
-    popup->addButton("start_1.png", "start_1.png", "Cancel", 1);
-    this->addChild(popup);
+//    popup->addButton("start_1.png", "start_1.png", "Ok", 0);
+//    popup->addButton("start_1.png", "start_1.png", "Cancel", 1);
+    popup->addButton("btnBack.png", "btnBack.png", "", 0);//返回
+    popup->addButton("btnNext.png", "btnNext.png", "", 1);//选关
+    popup->addButton("btnStart.png", "btnStart.png", "", 2);//重新开始
+
+    
+    this->addChild(popup,1000);
+    
+    CCDirector::getInstance()->pause();
+    
+   // pause()和resume()
     
 }
+void PlayLayer::controlCallback(Node* pSender)
+{
+    CCDirector::getInstance()->resume();
+    switch (pSender->getTag()) {
+        case 0:
+
+            break;
+        case 1:
+            menuBackCallback(NULL);
+            break;
+        case 2:
+        {
+            SimpleAudioEngine::getInstance()->playEffect(FileUtils::getInstance()->fullPathForFilename("sound/button.wav").c_str(), false);
+            std::string fileName =  UserDefault::getInstance()->getStringForKey("nextLevelFile");
+            if( fileName ==""){
+                fileName = "levelInfo_1_0.plist";
+            }
+            LoadLevelinfo* info = LoadLevelinfo::createLoadLevelinfo(fileName.c_str());
+            info->initLevelInfo();
+            Director::getInstance()->replaceScene(TransitionFadeBL::create(0.1f, PlayLayer::createScene()));
+            break;
+        }
+        default:
+            break;
+    }
+}
+
 
 void PlayLayer::menuBackCallback(Ref* pSender)
 {

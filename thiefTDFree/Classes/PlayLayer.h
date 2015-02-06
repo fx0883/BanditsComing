@@ -74,6 +74,8 @@ private:
 	void menuBackCallback(Ref* pSender);
     //Modify by Fx
     void menuSettingCallback(Ref* pSender);
+    
+    void controlCallback(Node* pSender);
 
 	Point towerPos;
     void initPointsVector(float offX);

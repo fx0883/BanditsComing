@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/PlayLayer.cpp"
-            timestampString = "444816390.764797"
+            timestampString = "444928643.197495"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "590"
-            endingLineNumber = "590"
+            startingLineNumber = "627"
+            endingLineNumber = "627"
             landmarkName = "PlayLayer::update(float dt)"
             landmarkType = "5">
          </BreakpointContent>
@@ -32,22 +32,6 @@
             startingLineNumber = "342"
             endingLineNumber = "342"
             landmarkName = "SettingLayer::updateVolumes(float)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Classes/Thief.cpp"
-            timestampString = "444885452.454586"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "Thief::createThief(Vector&lt;Node*&gt; points, int hp)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
