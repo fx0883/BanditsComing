@@ -7,7 +7,7 @@
 		<key>blood</key>
 		<integer>100</integer>
 		<key>money</key>
-		<integer>400</integer>
+		<real>2400</real>
 		<key>currlevel</key>
 		<string>levelInfo_1_1.plist</string>
 		<key>nextlevel</key>
@@ -49,9 +49,9 @@
 	<key>needtoloadimages</key>
 	<dict>
 		<key>1</key>
-        	<string>tilemap1.tmx</string>
+		<string>tilemap1.tmx</string>
 		<key>2</key>
-        	<string>selectBg.png</string>
+		<string>selectBg.png</string>
 	</dict>
 </dict>
 </plist>

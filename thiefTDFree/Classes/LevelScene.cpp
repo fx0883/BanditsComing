@@ -12,6 +12,7 @@
 #include "LevelSelectLayer2.h"
 #include "LevelSelectLayer3.h"
 #include "UIScene.h"
+#include "SettingLayer.h"
 USING_NS_CC;
 #include "SimpleAudioEngine.h"  
 using namespace CocosDenshion; 
@@ -109,11 +110,43 @@ bool LevelScene::init()
 		addChild(batch, 10);
 		m_emitter1->release();
 
-        bRet = true;  
+        bRet = true;
+        
+        
+        
+        
+        //加入 setting 按钮
+        Sprite *settingItem1 = CCSprite::createWithSpriteFrameName("playbutton1.png");
+        Sprite *settingItem2 = CCSprite::createWithSpriteFrameName("playbutton2.png");
+        MenuItemSprite *pSettingItem = MenuItemSprite::create(settingItem1, settingItem2, CC_CALLBACK_1(LevelScene::menuSettingCallback, this));
+        pSettingItem->setPosition(Point(40, 80));
+        pSettingItem->setAnchorPoint(Point(0, 0.5f));
+        Menu* pMenu = Menu::create(pSettingItem, NULL);
+        pMenu->setPosition(Point::ZERO);
+        addChild(pMenu);
+        
     } while (0);  
       
     return bRet;  
-}  
+}
+
+void LevelScene::menuSettingCallback(Ref* pSender)
+{
+    SettingLayer* popup = SettingLayer::create("600popup.png");
+    // ContentSize是可选的设置，可以不设置，如果设置则把它当做9图缩放
+    popup->setContentSize(CCSizeMake(300, 180));
+//    popup->setTitle("Message");
+//    popup->setContentText("Most people... blunder round this city.", 20, 50, 150);
+    // 设置回调函数，回调传回一个CCNode以获取tag判断点击的按钮
+    // 这只是作为一种封装实现，如果使用delegate那就能够更灵活的控制参数了
+    //    popup->setCallBackFunc(this, callfuncN_selector(PlayLayer::menuSettingCallback));
+    //添加按钮，设置图片、文字，tag信息
+    popup->addButton("btnBack.png", "btnBack.png", "", 0);
+//    popup->addButton("start_1.png", "start_1.png", "Cancel", 1);
+    this->addChild(popup,1000);
+}
+
+
   
 void LevelScene::menuCloseCallback(Ref* pSender)
 {  

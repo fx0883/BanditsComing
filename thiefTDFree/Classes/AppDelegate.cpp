@@ -33,7 +33,7 @@ AppDelegate::~AppDelegate()
 }
 
 bool AppDelegate::applicationDidFinishLaunching() {
-    // initialize director
+    // initialize director 
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
     if(!glview) {
@@ -48,8 +48,30 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / 60);
     
     glview->setDesignResolutionSize(480.0f, 320.0f, ResolutionPolicy::FIXED_HEIGHT);
+    
+
+    #warning 这里能否获取当前语言，然后设置资源？
+    
     std::vector<std::string> searchPath;
-    searchPath.push_back("height_864");
+    
+    LanguageType langtype = CCApplication::getInstance()->getCurrentLanguage();
+    
+    
+    std::string strResourceFolder="height_864";
+    switch (langtype) {
+        case LanguageType::CHINESE:
+            strResourceFolder="height_864_cn";
+            break;
+        case LanguageType::ENGLISH:
+            strResourceFolder="height_864";
+            break;
+        default:
+            strResourceFolder="height_864";
+            break;
+    }
+    
+    
+    searchPath.push_back(strResourceFolder);
     CCFileUtils::getInstance()->setSearchPaths(searchPath);
     director->setContentScaleFactor(864.0f / 320.0f);
     

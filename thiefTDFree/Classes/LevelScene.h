@@ -23,6 +23,7 @@ public:
       
     static LevelScene *sharedSC();  
 
+    void menuSettingCallback(Ref* pSender);
 private:
 
 }; 

@@ -9,6 +9,7 @@
 #include "UIScene.h"
 
 #include "SimpleAudioEngine.h"  
+#include "GameManager.h"
 using namespace CocosDenshion;  
 
 LoadingResScene::LoadingResScene()
@@ -60,7 +61,7 @@ void LoadingResScene::transitionScene()
 
 ProgressTimer * LoadingResScene::addProgress()
 {
-    //ÃÌº”“ª∏ˆΩ¯∂»Ãı≤¢∑µªÿ
+    //绘制背景
 	Size size = Director::getInstance()->getWinSize();
 	auto progressBarBg = Sprite::create("load.png");
 	progressBarBg->setPosition(Point(size.width / 2,  size.height / 2 ));  
@@ -123,7 +124,11 @@ void LoadingResScene::loadResources()
 	Director::getInstance()->getTextureCache()->addImageAsync("selectLevelBg4.png", CC_CALLBACK_1(LoadingResScene::loadingCallBack, this));
 	Director::getInstance()->getTextureCache()->addImageAsync("start_1.png", CC_CALLBACK_1(LoadingResScene::loadingCallBack, this));
 	Director::getInstance()->getTextureCache()->addImageAsync("start_2.png", CC_CALLBACK_1(LoadingResScene::loadingCallBack, this));
-
+    
+    
+    //载入本地化文件
+    
+    GameManager::getInstance()->localDic = Dictionary::createWithContentsOfFileThreadSafe("local.plist");
 }
 
 
@@ -138,7 +143,20 @@ void LoadingResScene::loadingCallBack(cocos2d::Texture2D *texture)
     {
 		transitionScene();
 		SimpleAudioEngine::getInstance()->playBackgroundMusic(FileUtils::getInstance()->fullPathForFilename("sound/music.mp3").c_str(), true);
-		SimpleAudioEngine::getInstance()->setBackgroundMusicVolume(0.1f);
-		//SimpleAudioEngine::getInstance()->setEffectsVolume(1.0f);
+        
+        
+        
+        float fMusicVolume = GameManager::getInstance()->getMusicVolume();
+        float fEffectVolume = GameManager::getInstance()->getEffectVolume();
+        
+        if (fMusicVolume<0.0f) {
+            fMusicVolume=0.5f;
+        }
+        if (fEffectVolume<0.0f) {
+            fEffectVolume=0.5f;
+        }
+        
+		SimpleAudioEngine::getInstance()->setBackgroundMusicVolume(fMusicVolume);
+		SimpleAudioEngine::getInstance()->setEffectsVolume(fEffectVolume);
 	}
 }

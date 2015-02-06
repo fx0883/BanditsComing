@@ -10,6 +10,9 @@
 
 GameManager* GameManager::instance;
 
+
+
+
 GameManager* GameManager::getInstance()
 {
 	if (instance == NULL)
@@ -28,6 +31,20 @@ bool GameManager::init()
 	} while (0);
 	return bRet;
 }
+GameManager::GameManager():localDic(NULL)
+{
+    
+}
+
+const char* GameManager::getStringByKey(const std::string& key)
+{
+    const char *retChr;
+    if (this->localDic) {
+//        const __String* strRet=this->localDic->valueForKey(key);
+        retChr=this->localDic->valueForKey(key)->getCString();
+    }
+    return retChr;
+}
 
 void GameManager::setCurMapID(int curID)
 {
@@ -45,4 +62,24 @@ void GameManager::clear()
 	bulletVector.clear();
 	//towerVector.clear();
 	groupVector.clear();
+}
+
+
+float GameManager::getMusicVolume()
+{
+    return UserDefault::getInstance()->getFloatForKey(kMusicVolume,-1.0f);
+}
+float GameManager::getEffectVolume()
+{
+    return UserDefault::getInstance()->getFloatForKey(kEffectVolume,-1.0f);
+}
+
+void GameManager::setMusicVolume(float volume)
+{
+    UserDefault::getInstance()->setFloatForKey(kMusicVolume, volume);
+}
+void GameManager::setEffectVolume(float volume)
+{
+    UserDefault::getInstance()->setFloatForKey(kEffectVolume, volume);
+
 }

@@ -15,6 +15,8 @@
 #include "LevelScene.h"
 #include "cocos-ext.h"
 #include "SimpleAudioEngine.h" 
+#include "SettingScene.h"
+#include "PopupLayer.h"
 
 USING_NS_CC_EXT;
 using namespace CocosDenshion; 
@@ -100,7 +102,7 @@ bool PlayLayer::init()
 
 void PlayLayer::initToolLayer()
 {
-	//����tool��
+	//¥¥Ω®tool≤„
 	auto size = Director::getInstance()->getWinSize();
 	toolLayer = Layer::create();
 	addChild(toolLayer);
@@ -114,7 +116,7 @@ void PlayLayer::initToolLayer()
 	spritetool->setPosition (Point(spritebg->getContentSize().width / 2, spritebg->getContentSize().height /2));
 	spritebg->addChild(spritetool);
 
-	// Ǯ
+	// «Æ
 	money = instance->getMoney();
 	moneyLabel = Label::createWithBMFont("fonts/bitmapFontChinese.fnt", "abdd");
     moneyLabel->setPosition(Point(spritetool->getContentSize().width / 9, spritetool->getContentSize().height / 2));
@@ -123,7 +125,7 @@ void PlayLayer::initToolLayer()
 	moneyLabel->setString(moneyText);
     spritetool->addChild(moneyLabel);
 
-	// ���Ѫ��
+	// ÕÊº“—™Ãı
 	playHpBar = ProgressTimer::create(Sprite::createWithSpriteFrameName("playhp.png"));
 	playHpBar->setType(ProgressTimer::Type::BAR);
 	playHpBar->setMidpoint(Point(0, 0.5f));
@@ -136,7 +138,7 @@ void PlayLayer::initToolLayer()
     star->setPosition(Point(spritetool->getContentSize().width / 4 *3, spritetool->getContentSize().height / 2));
 	spritetool->addChild(star);
 	
-	// ������Ϣ
+	// ≈˙¥Œ–≈œ¢
 	int groupTotal = instance->getGroupNum();
 	groupLabel = Label::createWithBMFont("fonts/bitmapFontChinese.fnt", " ");
     groupLabel->setPosition(Point(spritetool->getContentSize().width / 8 * 3, spritetool->getContentSize().height / 2 ));
@@ -152,15 +154,26 @@ void PlayLayer::initToolLayer()
 	groupTotalLabel->setString(groupTotalText);
     spritetool->addChild(groupTotalLabel);
 
+    
+    //Modify by FX begin
 	// back
-	Sprite *backItem1 = CCSprite::createWithSpriteFrameName("playbutton1.png");
-	Sprite *backItem2 = CCSprite::createWithSpriteFrameName("playbutton2.png");
-	MenuItemSprite *pPauseItem = MenuItemSprite::create(backItem1, backItem2, CC_CALLBACK_1(PlayLayer::menuBackCallback, this));
-	pPauseItem->setPosition(Point(spritetool->getContentSize().width - backItem1->getContentSize().width, spritetool->getContentSize().height / 2));
-	pPauseItem->setAnchorPoint(Point(0, 0.5f));
-	Menu* pMenu = Menu::create(pPauseItem, NULL);
-	pMenu->setPosition(Point::ZERO);
-	spritetool->addChild(pMenu);
+//	Sprite *backItem1 = CCSprite::createWithSpriteFrameName("playbutton1.png");
+//	Sprite *backItem2 = CCSprite::createWithSpriteFrameName("playbutton2.png");
+//	MenuItemSprite *pPauseItem = MenuItemSprite::create(backItem1, backItem2, CC_CALLBACK_1(PlayLayer::menuBackCallback, this));
+//	pPauseItem->setPosition(Point(spritetool->getContentSize().width - backItem1->getContentSize().width, spritetool->getContentSize().height / 2));
+//	pPauseItem->setAnchorPoint(Point(0, 0.5f));
+//	Menu* pMenu = Menu::create(pPauseItem, NULL);
+//	pMenu->setPosition(Point::ZERO);
+//	spritetool->addChild(pMenu);
+    
+    Sprite *settingItem1 = CCSprite::createWithSpriteFrameName("playbutton1.png");
+    Sprite *settingItem2 = CCSprite::createWithSpriteFrameName("playbutton2.png");
+    MenuItemSprite *pPauseItem = MenuItemSprite::create(settingItem1, settingItem2, CC_CALLBACK_1(PlayLayer::menuSettingCallback, this));
+    pPauseItem->setPosition(Point(spritetool->getContentSize().width - settingItem1->getContentSize().width, spritetool->getContentSize().height / 2));
+    pPauseItem->setAnchorPoint(Point(0, 0.5f));
+    Menu* pMenu = Menu::create(pPauseItem, NULL);
+    pMenu->setPosition(Point::ZERO);
+    spritetool->addChild(pMenu);
 }
 
 void PlayLayer::menuPauseCallback(Ref* pSender)
@@ -173,25 +186,45 @@ void PlayLayer::menuPauseCallback(Ref* pSender)
 	}
 }
 
+void PlayLayer::menuSettingCallback(Ref* pSender)
+{
+    //Director::getInstance()->replaceScene(CCTransitionFade::create(0.5, SettingScene::createScene()));
+    
+    
+    PopupLayer* popup = PopupLayer::create("bg.png");
+    // ContentSize是可选的设置，可以不设置，如果设置则把它当做9图缩放
+    popup->setContentSize(CCSizeMake(400, 360));
+    popup->setTitle("Message");
+    popup->setContentText("Most people... blunder round this city.", 20, 50, 150);
+    // 设置回调函数，回调传回一个CCNode以获取tag判断点击的按钮
+    // 这只是作为一种封装实现，如果使用delegate那就能够更灵活的控制参数了
+//    popup->setCallBackFunc(this, callfuncN_selector(PlayLayer::menuSettingCallback));
+    //添加按钮，设置图片、文字，tag信息
+    popup->addButton("start_1.png", "start_1.png", "Ok", 0);
+    popup->addButton("start_1.png", "start_1.png", "Cancel", 1);
+    this->addChild(popup);
+    
+}
+
 void PlayLayer::menuBackCallback(Ref* pSender)
 {
-	SimpleAudioEngine::getInstance()->playEffect(FileUtils::getInstance()->fullPathForFilename("sound/button.wav").c_str(), false);
-	Director::getInstance()->replaceScene(CCTransitionFade::create(0.5, LevelScene::create()));
-	instance->clear();
-
+    SimpleAudioEngine::getInstance()->playEffect(FileUtils::getInstance()->fullPathForFilename("sound/button.wav").c_str(), false);
+    Director::getInstance()->replaceScene(CCTransitionFade::create(0.5, LevelScene::create()));
+    instance->clear();
+    
 }
 
 GroupEnemy* PlayLayer::currentGroup()
 {
-	GroupEnemy* groupEnemy;
-	if(instance->groupVector.size() != 0)
-	{
-		groupEnemy = (GroupEnemy*)instance->groupVector.at(groupCounter);
-	}
-	else{
-		groupEnemy =NULL;
-	}
-	return groupEnemy;
+    GroupEnemy* groupEnemy;
+    if(instance->groupVector.size() != 0)
+    {
+        groupEnemy = (GroupEnemy*)instance->groupVector.at(groupCounter);
+    }
+    else{
+        groupEnemy =NULL;
+    }
+    return groupEnemy;
 }
 
 GroupEnemy* PlayLayer::nextGroup()
@@ -206,7 +239,7 @@ GroupEnemy* PlayLayer::nextGroup()
 		groupCounter++;
 	}
 	else{
-		// ��Ϸ��������һ����Ϸ����
+		// ”Œœ∑…˝º∂£¨œ¬“ªπÿ”Œœ∑ ˝æ›
 		//groupCounter = 0;
 		isSuccessful = true;
 	}
@@ -387,7 +420,7 @@ void PlayLayer::CollisionDetection()
 		{
 			auto enemy = enemyVector.at(j);
 			//auto enemyRect = enemy->sprite->getBoundingBox();
-			// ��Сһ��
+			// Àı–°“ª∞Î
             auto enemyRect = Rect(enemy->sprite->getPositionX() - enemy->sprite->getContentSize().width / 4,
                                 enemy->sprite->getPositionY()  - enemy->sprite->getContentSize().height / 4,
                                 enemy->sprite->getContentSize().width / 2,
@@ -460,7 +493,7 @@ void PlayLayer::enemyIntoHouse()
 
 	if(getPlayHpPercentage() <= 0)
 	{
-		// ��Ϸʧ��
+		// ”Œœ∑ ß∞‹
 		Director::getInstance()->replaceScene(TransitionFade::create(0.1f, FailedScene::create()));
 		instance->clear();
 	}
@@ -519,7 +552,7 @@ void PlayLayer::update(float dt)
 		}
 		else if( type == TowerType::MULTIDIR_TOWER )
         {
-			if( money >= 600 )
+			if( money >= 300 )
 			{
 				MultiDirTower* tower = MultiDirTower::create();
 				tower->setPosition(towerPos);
@@ -527,7 +560,7 @@ void PlayLayer::update(float dt)
 				this->addChild(tower);
 				instance->towerVector.pushBack(tower);          
 				towerMatrix[MatrixIndex] =  tower;
-				money -= 600;
+				money -= 300;
 			}else{
 				noMoneyTips = true;
 			}
