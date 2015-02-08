@@ -17,32 +17,17 @@
 			<key>1</key>
 			<dict>
 				<key>type1Num</key>
-				<integer>5</integer>
+				<integer>2</integer>
 				<key>type1Hp</key>
 				<integer>7</integer>
 				<key>type2Num</key>
 				<integer>10</integer>
 				<key>type2Hp</key>
-				<integer>5</integer>
+				<integer>2</integer>
 				<key>type3Num</key>
-				<integer>5</integer>
+				<integer>2</integer>
 				<key>type3Hp</key>
 				<integer>5</integer>
-			</dict>
-			<key>2</key>
-			<dict>
-				<key>type1Num</key>
-				<integer>10</integer>
-				<key>type1Hp</key>
-				<integer>10</integer>
-				<key>type2Num</key>
-				<integer>10</integer>
-				<key>type2Hp</key>
-				<integer>10</integer>
-				<key>type3Num</key>
-				<integer>10</integer>
-				<key>type3Hp</key>
-				<integer>10</integer>
 			</dict>
 		</dict>
 	</dict>

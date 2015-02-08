@@ -24,13 +24,14 @@ bool TowerBase::init()
 	{
 		return false;
 	}
-    scheduleUpdate();
+    //scheduleUpdate();
 	return true;
 }
 
 TowerBase::~TowerBase()
 {
-    unscheduleUpdate();
+    //unscheduleUpdate();
+    unscheduleAllSelectors();
 }
 
 

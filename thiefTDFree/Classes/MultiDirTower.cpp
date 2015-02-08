@@ -29,6 +29,8 @@ bool MultiDirTower::init()
 }
 
 
+
+
 Sprite* MultiDirTower::MultiDirTowerBullet()
 {
     Sprite* bullet = Sprite::createWithSpriteFrameName("bullet1.png");
