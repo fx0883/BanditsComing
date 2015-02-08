@@ -47,6 +47,7 @@ PlayLayer::~PlayLayer()
         free(towerMatrix);
     }
 	pointsVector.clear();
+    this->unscheduleAllSelectors();
 }
 
 Scene *PlayLayer::createScene()
@@ -87,7 +88,8 @@ bool PlayLayer::init()
     touchListener->onTouchBegan = CC_CALLBACK_2(PlayLayer::onTouchBegan, this);
     _eventDispatcher->addEventListenerWithSceneGraphPriority(touchListener, this);
     
-    scheduleUpdate();
+//    unscheduleUpdate();
+//    scheduleUpdate();
 
 	int arraySize = sizeof(TowerBase *) * MAP_WIDTH * MAP_HEIGHT;
     towerMatrix = (TowerBase **)malloc(arraySize);
@@ -100,6 +102,19 @@ bool PlayLayer::init()
     }
     return true;
 }
+
+void PlayLayer::onEnter()
+{
+    Node::onEnter();
+    scheduleUpdate();
+}
+
+void PlayLayer::onExit()
+{
+    Node::onExit();
+    unscheduleUpdate();
+}
+
 
 void PlayLayer::initToolLayer()
 {

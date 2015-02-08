@@ -111,7 +111,7 @@ void EnemyBase::runFllowPoint()
 
 void EnemyBase::decelerate()
 {
-	this->setRunSpeed(5);
+	this->setRunSpeed(20);
 }
 
 

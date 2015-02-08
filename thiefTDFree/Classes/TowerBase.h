@@ -27,7 +27,7 @@ class TowerBase: public Sprite
 {
 public:
     TowerBase();
-    
+    ~TowerBase();
     virtual bool init();
     CREATE_FUNC(TowerBase);
     

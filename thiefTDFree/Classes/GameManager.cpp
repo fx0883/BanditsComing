@@ -60,7 +60,7 @@ void GameManager::clear()
 {
 	enemyVector.clear();
 	bulletVector.clear();
-	//towerVector.clear();
+	towerVector.clear();
 	groupVector.clear();
 }
 

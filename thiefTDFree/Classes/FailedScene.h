@@ -18,7 +18,9 @@ public:
     FailedScene();  
     virtual bool init();  
     CREATE_FUNC(FailedScene);  
-    void menuCloseCallback(Ref* pSender);  
+    void menuCloseCallback(Ref* pSender);
+    ~FailedScene();
+ 
 
 private:
 

@@ -47,13 +47,13 @@ bool FailedScene::init()
 										NULL) 
 					);
 
-	ParticleSystem* m_emitter1 = ParticleSystemQuad::create("changjing.plist");
-	m_emitter1->retain();
-	ParticleBatchNode *batch = ParticleBatchNode::createWithTexture(m_emitter1->getTexture());
-	batch->addChild(m_emitter1);
-	m_emitter1->setPosition(Point(size.width/2, 0));
-	addChild(batch, 10);
-	m_emitter1->release();
+//	ParticleSystem* m_emitter1 = ParticleSystemQuad::create("changjing.plist");
+//	m_emitter1->retain();
+//	ParticleBatchNode *batch = ParticleBatchNode::createWithTexture(m_emitter1->getTexture());
+//	batch->addChild(m_emitter1);
+//	m_emitter1->setPosition(Point(size.width/2, 0));
+//	addChild(batch, 10);
+//	m_emitter1->release();
 
     return true;  
 }  
@@ -61,5 +61,12 @@ bool FailedScene::init()
 void FailedScene::menuCloseCallback(Ref* pSender)
 {  
 	SimpleAudioEngine::getInstance()->playEffect(FileUtils::getInstance()->fullPathForFilename("sound/button.wav").c_str(), false);
+     this->removeAllChildren();
     CCDirector::getInstance()->replaceScene(TransitionFade::create(0.5, LevelScene::create()));  
+}
+
+FailedScene::~FailedScene()
+{
+    //this->unscheduleAllSelectors();
+   
 }

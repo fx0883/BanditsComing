@@ -40,6 +40,8 @@ public:
 	void addGroupEnemy();
 	void logic(float dt);
 	void initLabelText();
+    virtual void onEnter() override;
+    virtual void onExit() override;
 private:
     SpriteBatchNode *spriteSheet;
     TMXTiledMap* map;

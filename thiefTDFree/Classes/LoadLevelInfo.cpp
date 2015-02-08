@@ -72,6 +72,8 @@ void LoadLevelinfo::initLevelInfo()
 
 	DictElement* tempGroup = NULL;
 
+    instance->groupVector.clear();
+    
 	CCDICT_FOREACH(groupDict, tempGroup)
 	{
 		__Dictionary* smallGroup = (__Dictionary*)tempGroup->getObject();

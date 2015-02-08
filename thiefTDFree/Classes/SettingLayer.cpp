@@ -357,4 +357,5 @@ void SettingLayer::updateVolumes(float)
 //退出
 void SettingLayer::onExit(){
     CCLayer::onExit();
+    this->unscheduleAllSelectors();
 }

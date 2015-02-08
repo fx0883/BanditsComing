@@ -16,7 +16,7 @@ bool Thief::init()
 	{
 		return false;
 	}
-    setRunSpeed(35);
+    setRunSpeed(935);
     setVaule(10);
     sprite = Sprite::createWithSpriteFrameName("enemyRight1_1.png");
     this->addChild(sprite);

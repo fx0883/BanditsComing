@@ -28,6 +28,11 @@ bool TowerBase::init()
 	return true;
 }
 
+TowerBase::~TowerBase()
+{
+    unscheduleUpdate();
+}
+
 
 void TowerBase::checkNearestEnemy()
 {
