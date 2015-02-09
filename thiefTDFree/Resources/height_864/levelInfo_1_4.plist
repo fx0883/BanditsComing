@@ -7,49 +7,79 @@
 		<key>blood</key>
 		<integer>100</integer>
 		<key>money</key>
-		<integer>4000</integer>
+		<real>2400</real>
 		<key>currlevel</key>
-		<string>levelInfo_1_2.plist</string>
+		<string>levelInfo_1_4.plist</string>
 		<key>nextlevel</key>
-		<string>levelInfo_1_3.plist</string>
+		<string>levelInfo_1_5.plist</string>
 		<key>wave</key>
 		<dict>
 			<key>1</key>
 			<dict>
 				<key>type1Num</key>
-				<integer>5</integer>
-				<key>type1Hp</key>
 				<integer>15</integer>
+				<key>type1Hp</key>
+				<integer>1</integer>
 				<key>type2Num</key>
-				<integer>10</integer>
+				<integer>0</integer>
 				<key>type2Hp</key>
-				<integer>10</integer>
+				<integer>1</integer>
 				<key>type3Num</key>
-				<integer>10</integer>
+				<integer>0</integer>
 				<key>type3Hp</key>
-				<integer>10</integer>
+				<integer>1</integer>
 			</dict>
 			<key>2</key>
 			<dict>
 				<key>type1Num</key>
-				<integer>10</integer>
+				<integer>0</integer>
 				<key>type1Hp</key>
-				<integer>12</integer>
+				<integer>3</integer>
 				<key>type2Num</key>
 				<integer>10</integer>
 				<key>type2Hp</key>
-				<integer>15</integer>
+				<integer>2</integer>
 				<key>type3Num</key>
-				<integer>10</integer>
+				<integer>5</integer>
 				<key>type3Hp</key>
-				<integer>15</integer>
+				<integer>1</integer>
 			</dict>
 			<key>3</key>
 			<dict>
 				<key>type1Num</key>
 				<integer>10</integer>
 				<key>type1Hp</key>
-				<integer>15</integer>
+				<integer>5</integer>
+				<key>type2Num</key>
+				<integer>10</integer>
+				<key>type2Hp</key>
+				<integer>4</integer>
+				<key>type3Num</key>
+				<integer>0</integer>
+				<key>type3Hp</key>
+				<integer>3</integer>
+			</dict>
+			<key>4</key>
+			<dict>
+				<key>type1Num</key>
+				<integer>5</integer>
+				<key>type1Hp</key>
+				<integer>7</integer>
+				<key>type2Num</key>
+				<integer>10</integer>
+				<key>type2Hp</key>
+				<integer>5</integer>
+				<key>type3Num</key>
+				<integer>5</integer>
+				<key>type3Hp</key>
+				<integer>5</integer>
+			</dict>
+			<key>5</key>
+			<dict>
+				<key>type1Num</key>
+				<integer>10</integer>
+				<key>type1Hp</key>
+				<integer>10</integer>
 				<key>type2Num</key>
 				<integer>10</integer>
 				<key>type2Hp</key>
@@ -64,9 +94,9 @@
 	<key>needtoloadimages</key>
 	<dict>
 		<key>1</key>
-		<string>tilemap2.tmx</string>
+		<string>tilemap4.tmx</string>
 		<key>2</key>
-		<string>playbg1.jpg</string>
+		<string>playbg.png</string>
 	</dict>
 </dict>
 </plist>
