@@ -74,7 +74,7 @@ void LevelSelectLayer1::menuCloseCallback0(Ref* pSender)
 	log("button tag : %d" ,button->getTag());
 
 	char buffer[20] = { 0 };
-    sprintf(buffer, "levelInfo_%d_%d.plist", 1, button->getTag());
+    sprintf(buffer, "levelInfo_%d_%d.plist", 1, button->getTag()%6);
     std::string strName =  buffer;
 	UserDefault::getInstance()->setStringForKey("nextLevelFile", strName);
 	log("strName : %s" ,strName.c_str());

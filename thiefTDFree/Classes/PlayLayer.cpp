@@ -545,9 +545,10 @@ void PlayLayer::enemyIntoHouse()
 
 	if(getPlayHpPercentage() <= 0)
 	{
-		// ”Œœ∑ ß∞‹
-		Director::getInstance()->replaceScene(TransitionFade::create(0.1f, FailedScene::create()));
+		
+		Director::getInstance()->replaceScene(TransitionFade::create(0.5f, FailedScene::create()));
 		instance->clear();
+        this->unscheduleUpdate();
 	}
 }
 
@@ -661,6 +662,7 @@ void PlayLayer::update(float dt)
 
 		Director::getInstance()->replaceScene(TransitionFade::create(0.1f, SuccessfulScene::create()));
 		instance->clear();
+        this->unscheduleUpdate();
 	}
 }
 

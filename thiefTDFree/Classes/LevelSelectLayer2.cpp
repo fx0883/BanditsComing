@@ -70,10 +70,10 @@ void LevelSelectLayer2::menuCloseCallback0(Ref* pSender)
 {  
 	auto button = (Sprite *)pSender;
 	SimpleAudioEngine::getInstance()->playEffect(FileUtils::getInstance()->fullPathForFilename("sound/button.wav").c_str(), false);
-	log("button tag : %d" ,button->getTag());
+	log("button tag : %d" ,button->getTag()%6);
 
 	char buffer[20] = { 0 };
-    sprintf(buffer, "levelInfo_%d_%d.plist", 1, button->getTag());
+    sprintf(buffer, "levelInfo_%d_%d.plist", 1, button->getTag()%6);
     std::string strName =  buffer;
 	UserDefault::getInstance()->setStringForKey("nextLevelFile", strName);
 	log("strName : %s" ,strName.c_str());
