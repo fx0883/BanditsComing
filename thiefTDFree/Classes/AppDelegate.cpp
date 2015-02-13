@@ -50,7 +50,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     glview->setDesignResolutionSize(480.0f, 320.0f, ResolutionPolicy::FIXED_HEIGHT);
     
 
-    #warning 这里能否获取当前语言，然后设置资源？
+    //warning 这里能否获取当前语言，然后设置资源？
     
     std::vector<std::string> searchPath;
     

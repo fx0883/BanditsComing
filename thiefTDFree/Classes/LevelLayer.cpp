@@ -51,7 +51,7 @@ bool LevelLayer::init()
   
 void LevelLayer::goToPage()  
 {  
-    MoveTo *moveTo = MoveTo::create(0.4f, Point::Point(-m_CurPage * WINDOW_WIDTH, 0));  
+    MoveTo *moveTo = MoveTo::create(0.4f, Point(-m_CurPage * WINDOW_WIDTH, 0));
       
     this->runAction(moveTo);  
 }  
@@ -59,10 +59,9 @@ void LevelLayer::goToPage()
 void LevelLayer::addPage(cocos2d::Layer *pPageLayer)  
 {  
     if (pPageLayer) {  
-        pPageLayer->setContentSize(Size::Size(WINDOW_WIDTH, WINDOW_HEIGHT));  
+        pPageLayer->setContentSize(Size(WINDOW_WIDTH, WINDOW_HEIGHT));  
         pPageLayer->setPosition(Point(WINDOW_WIDTH * m_Page, 0));  
-        this->addChild(pPageLayer);  
-        // Ìí¼Óµ½Ò³  
+        this->addChild(pPageLayer);
         m_PageLayer->addObject(pPageLayer);  
         m_Page = m_PageLayer->count();  
     }  
@@ -77,7 +76,7 @@ bool LevelLayer::onTouchBegan(Touch *pTouch, Event  *pEvent)
 }  
 void LevelLayer::onTouchMoved(Touch *pTouch, Event  *pEvent){   
     Point touchPoint = CCDirector::getInstance()->convertToGL(pTouch->getLocationInView());  
-    Point posPoint = Point::Point(getPositionX() + touchPoint.x - m_TouchCurPoint.x, getPositionY());  
+    Point posPoint = Point(getPositionX() + touchPoint.x - m_TouchCurPoint.x, getPositionY());  
     setPosition(posPoint);  
     m_TouchCurPoint = touchPoint;  
 }  

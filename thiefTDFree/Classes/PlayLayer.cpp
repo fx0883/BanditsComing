@@ -18,6 +18,17 @@
 #include "SettingScene.h"
 #include "LoadLevelinfo.h"
 #include "PopupLayer.h"
+#include <string>
+
+using namespace std;
+#if CC_TARGET_PLATFORM == CC_PLATFORM_MAC || CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
+template<typename T>
+string to_string(const T& t) {
+    ostringstream os;
+    os << t;
+    return os.str();
+}
+#endif
 
 USING_NS_CC_EXT;
 using namespace CocosDenshion; 
@@ -137,7 +148,7 @@ void PlayLayer::initToolLayer()
 	moneyLabel = Label::createWithBMFont("fonts/bitmapFontChinese.fnt", "abdd");
     moneyLabel->setPosition(Point(spritetool->getContentSize().width / 9, spritetool->getContentSize().height / 2));
 	moneyLabel->setAnchorPoint(Point(0, 0.5f));
-    auto moneyText = std::to_string(money);
+    auto moneyText = to_string(money);
 	moneyLabel->setString(moneyText);
     spritetool->addChild(moneyLabel);
 
@@ -159,14 +170,14 @@ void PlayLayer::initToolLayer()
 	groupLabel = Label::createWithBMFont("fonts/bitmapFontChinese.fnt", " ");
     groupLabel->setPosition(Point(spritetool->getContentSize().width / 8 * 3, spritetool->getContentSize().height / 2 ));
 	groupLabel->setAnchorPoint(Point(0.5f , 0.5f));
-    auto groupInfoText = std::to_string(groupCounter + 1);
+    auto groupInfoText = to_string(groupCounter + 1);
 	groupLabel->setString(groupInfoText);
     spritetool->addChild(groupLabel);
 
 	groupTotalLabel = Label::createWithBMFont("fonts/bitmapFontChinese.fnt", " ");
     groupTotalLabel->setPosition(Point(spritetool->getContentSize().width / 2 - 10, spritetool->getContentSize().height / 2 ));
 	groupTotalLabel->setAnchorPoint(Point(0.5f , 0.5f));
-    auto groupTotalText = std::to_string(groupTotal);
+    auto groupTotalText = to_string(groupTotal);
 	groupTotalLabel->setString(groupTotalText);
     spritetool->addChild(groupTotalLabel);
 
@@ -243,7 +254,7 @@ void PlayLayer::controlCallback(Node* pSender)
         case 2:
         {
             SimpleAudioEngine::getInstance()->playEffect(FileUtils::getInstance()->fullPathForFilename("sound/button.wav").c_str(), false);
-            std::string fileName =  UserDefault::getInstance()->getStringForKey("nextLevelFile");
+            string fileName =  UserDefault::getInstance()->getStringForKey("nextLevelFile");
             if( fileName ==""){
                 fileName = "levelInfo_1_0.plist";
             }
@@ -305,7 +316,7 @@ void PlayLayer::initPointsVector(float offX)
     Node *runOfPoint = NULL;
 	int count = 0;
 	ValueMap point;
-	point = objects->getObject(std::to_string(count));
+	point = objects->getObject(to_string(count));
 	while (point.begin()!= point.end())
 	{
 		float x = point.at("x").asFloat();
@@ -314,7 +325,7 @@ void PlayLayer::initPointsVector(float offX)
 		runOfPoint->setPosition(Point(x - offX , y  ));
 		this->pointsVector.pushBack(runOfPoint);
 		count++;
-		point = objects->getObject( std::to_string(count));
+		point = objects->getObject( to_string(count));
 	}
 	runOfPoint = NULL;
 }
@@ -369,9 +380,9 @@ void PlayLayer::logic(float dt){
 	{
 		groupEnemy = this->nextGroup();
 		int groupTotal = instance->getGroupNum();
-		auto groupInfoText =std::to_string(groupCounter + 1);
+		auto groupInfoText =to_string(groupCounter + 1);
 		groupLabel->setString(groupInfoText);
-		auto groupTotalText = std::to_string(groupTotal);
+		auto groupTotalText = to_string(groupTotal);
 		groupTotalLabel->setString(groupTotalText);
 	}
 	static long lastTimeTargetAdded = 0;
@@ -498,7 +509,7 @@ void PlayLayer::CollisionDetection()
 						enemyNeedToDelete.pushBack(enemy);
                         auto valueMoney = enemy->getVaule();
                         money += valueMoney;
-                        auto moneyText = std::to_string(money);
+                        auto moneyText = to_string(money);
                         moneyLabel->setString(moneyText);
 					}
 				}
@@ -623,7 +634,7 @@ void PlayLayer::update(float dt)
             chooseTowerpanle = NULL;	
 		}
 
-		auto moneyText = std::to_string(money);
+		auto moneyText = to_string(money);
         moneyLabel->setString(moneyText);
 
 		if( noMoneyTips == true )

@@ -44,12 +44,12 @@
 		<link>
 			<name>Classes</name>
 			<type>2</type>
-			<locationURI>COCOS2DX/projects/thiefTD/Classes</locationURI>
+			<location>/Users/fengxuan/Desktop/thiefTD/Classes</location>
 		</link>
 		<link>
 			<name>cocos2dx</name>
 			<type>2</type>
-			<locationURI>COCOS2DX/cocos2dx</locationURI>
+			<location>/Users/fengxuan/Desktop/thiefTD/cocos2d/cocos/2d/platform/android/java</location>
 		</link>
 		<link>
 			<name>extensions</name>
@@ -62,4 +62,10 @@
 			<locationURI>COCOS2DX/scripting</locationURI>
 		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>COCOS2DX</name>
+			<value>file:/Users/fengxuan/Desktop/cocos2d-x-3.0rc0</value>
+		</variable>
+	</variableList>
 </projectDescription>
