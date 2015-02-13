@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include "cocos2d.h"
-
+USING_NS_CC;
 class LevelScene : public cocos2d::Scene
 {
 public:  
@@ -24,6 +24,20 @@ public:
     static LevelScene *sharedSC();  
 
     void menuSettingCallback(Ref* pSender);
+    
+    void menuShareSDKCallback(Ref* pSender);
+    
+    
+    //shareSdk
+    void authMenuItemClick(CCObject* pSender);
+    
+    void cancelAuthMenuItemClick(CCObject* pSender);
+    
+    void hasAuthMenuItemClick(CCObject* pSender);
+    
+    void getUserInfoMenuItemClick(CCObject* pSender);
+    
+    void shareMenuItemClick(CCObject* pSender);
 private:
 
 }; 

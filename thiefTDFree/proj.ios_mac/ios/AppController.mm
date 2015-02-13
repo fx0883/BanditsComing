@@ -28,6 +28,16 @@
 #import "AppDelegate.h"
 #import "RootViewController.h"
 
+#import <ShareSDK/ShareSDK.h>
+#import "WXApi.h"
+#import "WeiboApi.h"
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+//#import <RennSDK/RennSDK.h>
+//#import <Pinterest/Pinterest.h>
+//#import <GoogleOpenSource/GoogleOpenSource.h>
+//#import <GooglePlus/GooglePlus.h>
+
 @implementation AppController
 
 #pragma mark -
@@ -36,10 +46,32 @@
 // cocos2d application instance
 static AppDelegate s_sharedApplication;
 
+-(void)importShareSDK
+{
+    //导入微信类型
+    [ShareSDK importWeChatClass:[WXApi class]];
+    
+    //导入腾讯微博类型
+    [ShareSDK importTencentWeiboClass:[WeiboApi class]];
+    
+    //导入QQ类型
+    [ShareSDK importQQClass:[QQApiInterface class] tencentOAuthCls:[TencentOAuth class]];
+    
+//    //导入人人网类型
+//    [ShareSDK importRenRenClass:[RennClient class]];
+//    
+//    //导入Pinterest类型
+//    [ShareSDK importPinterestClass:[Pinterest class]];
+//    
+//    //导入Google+类型
+//    [ShareSDK importGooglePlusClass:[GPPSignIn class] shareClass:[GPPShare class]];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
     // Override point for customization after application launch.
-
+    
+    [self importShareSDK];
     // Add the view controller's view to the window and display.
     window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
 
@@ -122,6 +154,15 @@ static AppDelegate s_sharedApplication;
      */
 }
 
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    return [ShareSDK handleOpenURL:url sourceApplication:nil annotation:nil wxDelegate:nil];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [ShareSDK handleOpenURL:url sourceApplication:sourceApplication annotation:annotation wxDelegate:nil];
+}
 
 #pragma mark -
 #pragma mark Memory management
