@@ -38,6 +38,10 @@
 //#import <GoogleOpenSource/GoogleOpenSource.h>
 //#import <GooglePlus/GooglePlus.h>
 
+#import "AdmobManager.h"
+#import "Appirater.h"
+
+
 @implementation AppController
 
 #pragma mark -
@@ -72,6 +76,8 @@ static AppDelegate s_sharedApplication;
     // Override point for customization after application launch.
     
     [self importShareSDK];
+
+    
     // Add the view controller's view to the window and display.
     window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
 
@@ -111,6 +117,10 @@ static AppDelegate s_sharedApplication;
 
     cocos2d::Application::getInstance()->run();
 
+    //载入广告
+    [AdmobManager sharedInstance];
+    [self giveMeRate];
+    
     return YES;
 }
 
@@ -130,6 +140,7 @@ static AppDelegate s_sharedApplication;
      */
      //We don't need to call this method any more. It will interupt user defined game pause&resume logic
     /* cocos2d::Director::getInstance()->resume(); */
+    [[AdmobManager sharedInstance] startInterstitialView];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
@@ -145,6 +156,7 @@ static AppDelegate s_sharedApplication;
      Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
      */
     cocos2d::Application::getInstance()->applicationWillEnterForeground();
+    [Appirater appEnteredForeground:YES];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
@@ -179,5 +191,16 @@ static AppDelegate s_sharedApplication;
     [super dealloc];
 }
 
+
+- (void)giveMeRate
+{
+    [Appirater setAppId:@"961013700"];
+    [Appirater setDaysUntilPrompt:3];
+    [Appirater setUsesUntilPrompt:3];
+    [Appirater setSignificantEventsUntilPrompt:-1];
+    [Appirater setTimeBeforeReminding:2];
+    [Appirater setDebug:NO];
+    [Appirater appLaunched:YES];
+}
 
 @end
