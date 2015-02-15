@@ -16,6 +16,10 @@
 //USING_NS_CC;
 #include "SimpleAudioEngine.h"
 #include "C2DXShareSDK.h"
+
+#include "GameManager.h"
+
+#include "FSUtil.h"
 using namespace CocosDenshion; 
 using namespace cn::sharesdk;
 static LevelLayer *levelLayer;  
@@ -209,20 +213,25 @@ void LevelScene::hasAuthMenuItemClick(CCObject* pSender)
 void LevelScene::getUserInfoMenuItemClick(CCObject* pSender)
 {
     C2DXShareSDK::getUserInfo(C2DXPlatTypeSinaWeibo, getUserResultHandler);
+    
 }
 
 void LevelScene::shareMenuItemClick(CCObject* pSender)
 {
     CCDictionary *content = CCDictionary::create();
-    content -> setObject(CCString::create("这是一条测试内容"), "content");
-    content -> setObject(CCString::create("http://img0.bdstatic.com/img/image/shouye/systsy-11927417755.jpg"), "image");
-    content -> setObject(CCString::create("测试标题"), "title");
-    content -> setObject(CCString::create("测试描述"), "description");
-    content -> setObject(CCString::create("http://sharesdk.cn"), "url");
+    
+//    std::string searchPath=    CCFileUtils::getInstance()->getSearchPaths()[0];
+    std::string imagePath = "sharePic";
+    
+    content -> setObject(CCString::create(FSLocalizedStdStringByKey("ShareContent")), "content");
+    content -> setObject(CCString::create(imagePath), "image");
+    content -> setObject(CCString::create(FSLocalizedNSStringByKey("ShareTitle")), "title");
+    content -> setObject(CCString::create(FSLocalizedNSStringByKey("ShareDescription")), "description");
+    content -> setObject(CCString::create(SHARESDKREDIRECT_URI), "url");
     content -> setObject(CCString::createWithFormat("%d", C2DXContentTypeNews), "type");
-    content -> setObject(CCString::create("http://sharesdk.cn"), "siteUrl");
-    content -> setObject(CCString::create("ShareSDK"), "site");
-    content -> setObject(CCString::create("http://mp3.mwap8.com/destdir/Music/2009/20090601/ZuiXuanMinZuFeng20090601119.mp3"), "musicUrl");
+    content -> setObject(CCString::create(SHARESDKREDIRECT_URI), "siteUrl");
+//    content -> setObject(CCString::create("ShareSDK"), "site");
+//    content -> setObject(CCString::create("http://mp3.mwap8.com/destdir/Music/2009/20090601/ZuiXuanMinZuFeng20090601119.mp3"), "musicUrl");
     content -> setObject(CCString::create("extInfo"), "extInfo");
     
     C2DXShareSDK::showShareMenu(NULL, content, CCPointMake(100, 100), C2DXMenuArrowDirectionLeft, shareResultHandler);

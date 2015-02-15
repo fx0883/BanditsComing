@@ -3,6 +3,8 @@
 
 #include "cocos2d.h"
 #include "C2DXShareSDK.h"
+
+
 /**
  @brief    The cocos2d Application.
  

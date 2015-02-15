@@ -117,6 +117,7 @@
 		8380D5DF1A8F188800AD5706 /* AdmobManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8380D5D61A8F188800AD5706 /* AdmobManager.m */; };
 		8380D5E01A8F188800AD5706 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8380D5D81A8F188800AD5706 /* GoogleMobileAds.framework */; };
 		8380D5E11A8F188800AD5706 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8380D5D91A8F188800AD5706 /* README.txt */; };
+		8384B1D51A90CC5200D25C25 /* sharePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8384B1D41A90CC5200D25C25 /* sharePic.png */; };
 		838591991A8F7E0500C47F87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838591981A8F7E0500C47F87 /* AVFoundation.framework */; };
 		8385919D1A8F7E0F00C47F87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8385919C1A8F7E0F00C47F87 /* AudioToolbox.framework */; };
 		8385919F1A8F7E1800C47F87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8385919E1A8F7E1800C47F87 /* CoreGraphics.framework */; };
@@ -524,6 +525,7 @@
 		8380D5D61A8F188800AD5706 /* AdmobManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdmobManager.m; sourceTree = "<group>"; };
 		8380D5D81A8F188800AD5706 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		8380D5D91A8F188800AD5706 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		8384B1D41A90CC5200D25C25 /* sharePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharePic.png; sourceTree = "<group>"; };
 		838591981A8F7E0500C47F87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		8385919C1A8F7E0F00C47F87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		8385919E1A8F7E1800C47F87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -1043,6 +1045,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8384B1D41A90CC5200D25C25 /* sharePic.png */,
 				83D6CC371A810F750005C933 /* height_864_cn */,
 				83913D0D1A807F7500BC2526 /* Images.xcassets */,
 				DE75FD0419624ECC00EDC454 /* fonts */,
@@ -1635,6 +1638,7 @@
 				83D6CC901A810F750005C933 /* bitmapFontTest3.fnt in Resources */,
 				83D6CCC21A810F750005C933 /* tiles.png in Resources */,
 				83D6CC931A810F750005C933 /* boundsTestFont.png in Resources */,
+				8384B1D51A90CC5200D25C25 /* sharePic.png in Resources */,
 				83D6CCA71A810F750005C933 /* selectHouse.png in Resources */,
 				83D6CC8E1A810F750005C933 /* bitmapFontChinese.fnt in Resources */,
 				83D6CCA21A810F750005C933 /* Play.plist in Resources */,
@@ -1940,7 +1944,7 @@
 				);
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../cocos2d/cocos";
 			};
 			name = Debug;
@@ -1987,7 +1991,7 @@
 				);
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../cocos2d/cocos";
 			};
 			name = Release;

@@ -241,8 +241,16 @@ id<ISSContent> convertPublishContent(CCDictionary *content)
             }
             else
             {
+                //
+                NSString *filePath = [[NSBundle mainBundle] pathForResource:imagePath ofType:@"png"];
+                //UIImage(named: "logo")!
+              //  NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"bg" ofType:@"png"];
+                
+//                id<ISSCAttachment> imageContent = [ShareSDK jpegImageWithImage:imagecontent quality:0.6];
                 NSLog(@"is path");
-                image = [ShareSDK imageWithPath:imagePath];
+//                image = [ShareSDK imageWithPath:filePath];
+                UIImage *img=[UIImage imageNamed:imagePath];
+                image = [ShareSDK pngImageWithImage: img];
             }
         }
         

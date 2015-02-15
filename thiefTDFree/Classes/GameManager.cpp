@@ -45,6 +45,11 @@ const char* GameManager::getStringByKey(const std::string& key)
     }
     return retChr;
 }
+std::string GameManager::getStdStringByKey(const std::string& key)
+{
+    std::string strRet(GameManager::getInstance()->getStringByKey(key));
+    return strRet;
+}
 
 void GameManager::setCurMapID(int curID)
 {

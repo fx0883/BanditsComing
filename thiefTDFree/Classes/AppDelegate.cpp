@@ -2,7 +2,11 @@
 #include "LevelInfoScene.h"
 #include "UIScene.h"
 #include "LoadingResScene.h"
+#include "FSUtil.h"
 USING_NS_CC;
+
+
+
 using namespace cn::sharesdk;
 extern"C"{
     
@@ -34,8 +38,7 @@ AppDelegate::~AppDelegate()
 
 bool AppDelegate::applicationDidFinishLaunching() {
     
-    //初始化ShareSDK
-    C2DXShareSDK::open(CCString::create("5cb87ba3887f"), false);
+
     
     //初始化社交平台信息
     this -> initPlatformConfig();
@@ -110,18 +113,22 @@ void AppDelegate::applicationWillEnterForeground() {
 
 void AppDelegate::initPlatformConfig()
 {
+    //初始化ShareSDK
+    C2DXShareSDK::open(CCString::create("5cb87ba3887f"), false);
+    
+    
     //新浪微博
     CCDictionary *sinaConfigDict = CCDictionary::create();
-    sinaConfigDict -> setObject(CCString::create("568898243"), "app_key");
-    sinaConfigDict -> setObject(CCString::create("38a4f8204cc784f81f9f0daaf31e02e3"), "app_secret");
-    sinaConfigDict -> setObject(CCString::create("http://www.sharesdk.cn"), "redirect_uri");
+    sinaConfigDict -> setObject(CCString::create("1603834281"), "app_key");
+    sinaConfigDict -> setObject(CCString::create("331c256ec5c3738b6ae8cb29a0154051"), "app_secret");
+    sinaConfigDict -> setObject(CCString::create(SHARESDKREDIRECT_URI), "redirect_uri");
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeSinaWeibo, sinaConfigDict);
     
     //腾讯微博
     CCDictionary *tcConfigDict = CCDictionary::create();
-    tcConfigDict -> setObject(CCString::create("801307650"), "app_key");
-    tcConfigDict -> setObject(CCString::create("ae36f4ee3946e1cbb98d6965b0b2ff5c"), "app_secret");
-    tcConfigDict -> setObject(CCString::create("http://www.sharesdk.cn"), "redirect_uri");
+    tcConfigDict -> setObject(CCString::create("801559571"), "app_key");
+    tcConfigDict -> setObject(CCString::create("67e245cad8fbecf940da896b2cfcddc3"), "app_secret");
+    tcConfigDict -> setObject(CCString::create(SHARESDKREDIRECT_URI), "redirect_uri");
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeTencentWeibo, tcConfigDict);
     
     //短信
@@ -129,20 +136,20 @@ void AppDelegate::initPlatformConfig()
     
     //QQ空间
     CCDictionary *qzConfigDict = CCDictionary::create();
-    qzConfigDict -> setObject(CCString::create("100371282"), "app_id");
-    qzConfigDict -> setObject(CCString::create("aed9b0303e3ed1e27bae87c33761161d"), "app_key");
+    qzConfigDict -> setObject(CCString::create("1104264127"), "app_id");
+    qzConfigDict -> setObject(CCString::create("kypcMZ6ONX2uJLkq"), "app_key");
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeQZone, qzConfigDict);
     
     //微信
     CCDictionary *wcConfigDict = CCDictionary::create();
-    wcConfigDict -> setObject(CCString::create("wx4868b35061f87885"), "app_id");
+    wcConfigDict -> setObject(CCString::create("wx43c58102a59f5dca"), "app_id");
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeWeixiSession, wcConfigDict);
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeWeixiTimeline, wcConfigDict);
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeWeixiFav, wcConfigDict);
     
     //QQ
     CCDictionary *qqConfigDict = CCDictionary::create();
-    qqConfigDict -> setObject(CCString::create("100371282"), "app_id");
+    qqConfigDict -> setObject(CCString::create("1104264127"), "app_id");
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeQQ, qqConfigDict);
     
     //Facebook
@@ -155,7 +162,7 @@ void AppDelegate::initPlatformConfig()
     CCDictionary *twConfigDict = CCDictionary::create();
     twConfigDict -> setObject(CCString::create("mnTGqtXk0TYMXYTN7qUxg"), "consumer_key");
     twConfigDict -> setObject(CCString::create("ROkFqr8c3m1HXqS3rm3TJ0WkAJuwBOSaWhPbZ9Ojuc"), "consumer_secret");
-    twConfigDict -> setObject(CCString::create("http://www.sharesdk.cn"), "redirect_uri");
+    twConfigDict -> setObject(CCString::create(SHARESDKREDIRECT_URI), "redirect_uri");
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeTwitter, twConfigDict);
     
     //Google+
@@ -166,18 +173,18 @@ void AppDelegate::initPlatformConfig()
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeGooglePlus, gpConfigDict);
     
     //人人网
-    CCDictionary *rrConfigDict = CCDictionary::create();
-    rrConfigDict -> setObject(CCString::create("226427"), "app_id");
-    rrConfigDict -> setObject(CCString::create("fc5b8aed373c4c27a05b712acba0f8c3"), "app_key");
-    rrConfigDict -> setObject(CCString::create("f29df781abdd4f49beca5a2194676ca4"), "secret_key");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeRenren, rrConfigDict);
-    
-    //开心网
-    CCDictionary *kxConfigDict = CCDictionary::create();
-    kxConfigDict -> setObject(CCString::create("358443394194887cee81ff5890870c7c"), "api_key");
-    kxConfigDict -> setObject(CCString::create("da32179d859c016169f66d90b6db2a23"), "secret_key");
-    kxConfigDict -> setObject(CCString::create("http://www.sharesdk.cn/"), "redirect_uri");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeKaixin, kxConfigDict);
+//    CCDictionary *rrConfigDict = CCDictionary::create();
+//    rrConfigDict -> setObject(CCString::create("226427"), "app_id");
+//    rrConfigDict -> setObject(CCString::create("fc5b8aed373c4c27a05b712acba0f8c3"), "app_key");
+//    rrConfigDict -> setObject(CCString::create("f29df781abdd4f49beca5a2194676ca4"), "secret_key");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeRenren, rrConfigDict);
+//    
+//    //开心网
+//    CCDictionary *kxConfigDict = CCDictionary::create();
+//    kxConfigDict -> setObject(CCString::create("358443394194887cee81ff5890870c7c"), "api_key");
+//    kxConfigDict -> setObject(CCString::create("da32179d859c016169f66d90b6db2a23"), "secret_key");
+//    kxConfigDict -> setObject(CCString::create("http://www.sharesdk.cn/"), "redirect_uri");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeKaixin, kxConfigDict);
     
     //邮件
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeMail, NULL);

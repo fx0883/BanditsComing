@@ -25,6 +25,11 @@ using namespace CocosDenshion;
 GameManager::getInstance()->getStringByKey(key)
 //return type:const char*
 
+#define FSLocalizedStdStringByKey(key) \
+GameManager::getInstance()->getStdStringByKey(key)
+
+
+
 #define kMusicVolume "MusicVolume"
 #define kEffectVolume "EffectVolume"
 class GameManager
@@ -58,6 +63,7 @@ public:
 
 	static GameManager* getInstance();
     const char* getStringByKey(const std::string& key);
+    std::string getStdStringByKey(const std::string& key);
     bool init();
 	void clear();
     
