@@ -1,5 +1,5 @@
 obj/local/armeabi/objs/cocos2dx_static/__/math/kazmath/kazmath/GL/mat4stack.o: \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/mat4stack.c \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/mat4stack.c \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdlib.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -24,15 +24,15 @@ obj/local/armeabi/objs/cocos2dx_static/__/math/kazmath/kazmath/GL/mat4stack.o: \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/assert.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdio.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/mat4stack.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../mat4.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/mat4stack.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../mat4.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../utility.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../utility.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/limits.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/limits.h \
@@ -90,23 +90,23 @@ obj/local/armeabi/objs/cocos2dx_static/__/math/kazmath/kazmath/GL/mat4stack.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdio.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/mat4stack.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/mat4stack.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../mat4.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../mat4.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../utility.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../utility.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h:
 

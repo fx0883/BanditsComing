@@ -2,7 +2,14 @@
 #define  _APP_DELEGATE_H_
 
 #include "cocos2d.h"
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
 #include "C2DXShareSDK.h"
+using namespace cn::sharesdk;
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+//Android codes
+#endif
+
 
 
 /**
@@ -13,8 +20,14 @@
 class  AppDelegate : private cocos2d::Application
 {
 private:
+    
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     //初始化平台配置
     void initPlatformConfig();
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    //Android codes
+#endif
+
     
 public:
     AppDelegate();

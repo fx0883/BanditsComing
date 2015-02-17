@@ -1,5 +1,5 @@
 obj/local/armeabi/objs/chipmunk_static/src/cpBBTree.o: \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/src/cpBBTree.c \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/src/cpBBTree.c \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdlib.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -23,8 +23,8 @@ obj/local/armeabi/objs/chipmunk_static/src/cpBBTree.o: \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdio.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/limits.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/limits.h \
@@ -33,26 +33,26 @@ obj/local/armeabi/objs/chipmunk_static/src/cpBBTree.o: \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/limits.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/page.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpVect.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBB.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBody.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpShape.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpVect.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBB.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBody.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpShape.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdlib.h:
 
@@ -100,9 +100,9 @@ obj/local/armeabi/objs/chipmunk_static/src/cpBBTree.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdio.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h:
 
@@ -120,42 +120,42 @@ obj/local/armeabi/objs/chipmunk_static/src/cpBBTree.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/page.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpVect.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpVect.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBB.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBB.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBody.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpBody.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpShape.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpShape.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpace.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/chipmunk/include/chipmunk/cpSpace.h:

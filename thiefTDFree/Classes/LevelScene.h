@@ -37,7 +37,15 @@ public:
     
     void getUserInfoMenuItemClick(CCObject* pSender);
     
+    #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     void shareMenuItemClick(CCObject* pSender);
+    std::string getShareImagePath();
+    #elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    //Android codes
+    #endif
+    
+
+    
 private:
 
 }; 

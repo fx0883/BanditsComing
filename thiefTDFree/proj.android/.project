@@ -44,17 +44,17 @@
 		<link>
 			<name>Classes</name>
 			<type>2</type>
-			<location>/Users/fengxuan/Desktop/thiefTD/Classes</location>
+			<location>/workCode/BanditsComing/thiefTDFree/Classes</location>
 		</link>
 		<link>
 			<name>cocos2dx</name>
 			<type>2</type>
-			<location>/Users/fengxuan/Desktop/thiefTD/cocos2d/cocos/2d/platform/android/java</location>
+			<location>/workCode/BanditsComing/thiefTDFree/cocos2d/cocos/2d/platform/android/java</location>
 		</link>
 		<link>
 			<name>extensions</name>
 			<type>2</type>
-			<locationURI>COCOS2DX/extensions</locationURI>
+			<location>/workCode/BanditsComing/thiefTDFree/cocos2d/extensions</location>
 		</link>
 		<link>
 			<name>scripting</name>

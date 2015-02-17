@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ShareDescription</key>
+	<string>In mainland with a magical power, the wizard creates a powerful stone, it maintains the energy balance of the continent, but there is a evil force emerged from the darkness, and their purpose is to destroy the stone house, to gain control of the mainland, the young warrior you mission is to protect stone house, the aggression of the defeat the enemy, are you ready?</string>
+	<key>ShareTitle</key>
+	<string>Bandits Coming</string>
+	<key>ShareContent</key>
+	<string>Combat warriors</string>
 	<key>Music</key>
 	<string>Music</string>
 	<key>Effect</key>

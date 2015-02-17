@@ -15,20 +15,34 @@
 #include "SettingLayer.h"
 //USING_NS_CC;
 #include "SimpleAudioEngine.h"
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
 #include "C2DXShareSDK.h"
+using namespace cn::sharesdk;
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+//Android codes
+#endif
+
+
+
 
 #include "GameManager.h"
 
 #include "FSUtil.h"
 using namespace CocosDenshion; 
-using namespace cn::sharesdk;
+
 static LevelLayer *levelLayer;  
 static LevelScene *sc;
 
-
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
 void getUserResultHandler(C2DXResponseState state, C2DXPlatType platType, CCDictionary *userInfo, CCDictionary *error);
 
 void shareResultHandler(C2DXResponseState state, C2DXPlatType platType, CCDictionary *shareInfo, CCDictionary *error);
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+//Android codes
+#endif
+
+
 
   
 LevelScene *LevelScene::sharedSC(){  
@@ -137,6 +151,9 @@ bool LevelScene::init()
         addChild(pMenu);
         
         
+        
+        
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
         //加入 分享 按钮
         Sprite *shareSdkItem1 = CCSprite::createWithSpriteFrameName("playbutton1.png");
         Sprite *shareSdkItem2 = CCSprite::createWithSpriteFrameName("playbutton2.png");
@@ -146,7 +163,11 @@ bool LevelScene::init()
         Menu* pMenuShareSdk = Menu::create(pShareSDKItem, NULL);
         pMenuShareSdk->setPosition(Point::ZERO);
         addChild(pMenuShareSdk);
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+        //Android codes
+#endif
         
+
         
     } while (0);  
       
@@ -154,10 +175,7 @@ bool LevelScene::init()
 }
 
 
-void LevelScene::menuShareSDKCallback(Ref* pSender)
-{
-    shareMenuItemClick(NULL);
-}
+
 
 
 void LevelScene::menuSettingCallback(Ref* pSender)
@@ -186,6 +204,13 @@ void LevelScene::menuCloseCallback(Ref* pSender)
 
 
 
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+    void LevelScene::menuShareSDKCallback(Ref* pSender)
+    {
+        shareMenuItemClick(NULL);
+    }
+
+
 //sharesdk
 
 void LevelScene::authMenuItemClick(CCObject* pSender)
@@ -202,7 +227,7 @@ void LevelScene::hasAuthMenuItemClick(CCObject* pSender)
 {
     if (C2DXShareSDK::hasAutorized(C2DXPlatTypeSinaWeibo))
     {
-        CCLog("用户已授权");
+        CCLog("11111用户已授权");
     }
     else
     {
@@ -216,18 +241,55 @@ void LevelScene::getUserInfoMenuItemClick(CCObject* pSender)
     
 }
 
+std::string LevelScene::getShareImagePath()
+{
+    
+    
+    std::vector<std::string> listImagePath;
+    listImagePath.push_back("http://a.hiphotos.baidu.com/image/h%3D360/sign=984de4228418367ab28979db1e738b68/0b46f21fbe096b63de38775b0e338744ebf8ac93.jpg");
+    listImagePath.push_back("http://d.hiphotos.baidu.com/image/h%3D360/sign=6dc6980d8494a4c21523e12d3ef41bac/a8773912b31bb0514357ca2a357adab44aede045.jpg");
+    listImagePath.push_back("http://e.hiphotos.baidu.com/image/h%3D360/sign=7d7b0123223fb80e13d167d106d02ffb/4034970a304e251fe958e9eaa486c9177f3e5370.jpg");
+
+        listImagePath.push_back("http://g.hiphotos.baidu.com/image/h%3D200/sign=cb073b61f1deb48fe469a6dec01e3aef/c9fcc3cec3fdfc03a4b842b8d63f8794a5c226e9.jpg");
+        listImagePath.push_back("http://image.s1979.com/allimg/131228/25-13122Q54631.jpg");
+
+        listImagePath.push_back("http://a.hiphotos.baidu.com/image/pic/item/9d82d158ccbf6c814884f9b9be3eb13533fa4034.jpg");
+    
+        listImagePath.push_back("http://e.hiphotos.baidu.com/image/pic/item/b999a9014c086e06e1652a6f01087bf40bd1cbc1.jpg");
+        listImagePath.push_back("http://a.hiphotos.baidu.com/image/pic/item/1b4c510fd9f9d72a80f8481ad62a2834349bbb1d.jpg");
+//        listImagePath.push_back("http://img0.imgtn.bdimg.com/it/u=3959729808,1330752766&fm=23&gp=0.jpg");
+//        listImagePath.push_back("http://img2.imgtn.bdimg.com/it/u=1488062681,3317039875&fm=21&gp=0.jpg");
+    
+    int count = (int)listImagePath.size();
+    srand((int)time(0));
+
+    int j=rand()%count;
+    if (j>=count) {
+        j--;
+    }
+    
+    
+    
+    
+    std::string imagePath = listImagePath.at(j);
+    return imagePath;
+}
+
+
 void LevelScene::shareMenuItemClick(CCObject* pSender)
 {
     CCDictionary *content = CCDictionary::create();
     
 //    std::string searchPath=    CCFileUtils::getInstance()->getSearchPaths()[0];
-    std::string imagePath = "sharePic";
+    std::string imagePath = this->getShareImagePath();
     
     content -> setObject(CCString::create(FSLocalizedStdStringByKey("ShareContent")), "content");
     content -> setObject(CCString::create(imagePath), "image");
     content -> setObject(CCString::create(FSLocalizedNSStringByKey("ShareTitle")), "title");
     content -> setObject(CCString::create(FSLocalizedNSStringByKey("ShareDescription")), "description");
     content -> setObject(CCString::create(SHARESDKREDIRECT_URI), "url");
+//    content -> setObject(CCString::create(FSLocalizedNSStringByKey("ShareTitle")), "site");
+    
     content -> setObject(CCString::createWithFormat("%d", C2DXContentTypeNews), "type");
     content -> setObject(CCString::create(SHARESDKREDIRECT_URI), "siteUrl");
 //    content -> setObject(CCString::create("ShareSDK"), "site");
@@ -289,3 +351,7 @@ void shareResultHandler(C2DXResponseState state, C2DXPlatType platType, CCDictio
             break;
     }
 }
+
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+//Android codes
+#endif

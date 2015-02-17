@@ -7,7 +7,7 @@
 		<key>blood</key>
 		<integer>100</integer>
 		<key>money</key>
-		<integer>1400</integer>
+		<real>2400</real>
 		<key>currlevel</key>
 		<string>levelInfo_1_4.plist</string>
 		<key>nextlevel</key>

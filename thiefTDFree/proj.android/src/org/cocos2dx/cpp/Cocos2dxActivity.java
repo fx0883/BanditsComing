@@ -2,6 +2,8 @@ package org.cocos2dx.cpp;
 
 import android.app.NativeActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
+import android.widget.Toast;
 
 // The name of .so is specified in AndroidMenifest.xml. NativityActivity will load it automatically for you.
 // You can use "System.loadLibrary()" to load other .so files.
@@ -31,5 +33,21 @@ public class Cocos2dxActivity extends NativeActivity{
 		//2.Set the format of window
 		// getWindow().setFormat(PixelFormat.TRANSLUCENT);
 		
+	}
+	
+	private long mkeyTime = 0;
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+	    //二次返回退出
+	    if (keyCode == KeyEvent.KEYCODE_BACK) {
+	        if ((System.currentTimeMillis() - mkeyTime) > 2000) {
+	            mkeyTime = System.currentTimeMillis();
+	            Toast.makeText(this, "再按一次退出游戏", Toast.LENGTH_LONG).show();
+	        } else {
+	            finish();
+	            System.exit(0);
+	        }
+	        return false;
+	    }
+	    return super.onKeyDown(keyCode, event);
 	}
 }

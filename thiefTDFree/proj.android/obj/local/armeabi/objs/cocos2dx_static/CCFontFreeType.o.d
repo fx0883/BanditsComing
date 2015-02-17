@@ -1,5 +1,5 @@
 obj/local/armeabi/objs/cocos2dx_static/CCFontFreeType.o: \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCFontFreeType.cpp \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCFontFreeType.cpp \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdio.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -17,104 +17,104 @@ obj/local/armeabi/objs/cocos2dx_static/CCFontFreeType.o: \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccUTF8.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccUTF8.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCFontFreeType.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCFont.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCLabel.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCSpriteBatchNode.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCNode.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccMacros.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCFontFreeType.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCFont.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCLabel.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCSpriteBatchNode.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCNode.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccMacros.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/select.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/thread \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/map \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccMacros.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCAffineTransform.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/kazmath.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/vec2.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/vec3.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccMacros.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCAffineTransform.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/kazmath.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/vec2.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/vec3.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/assert.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/mat3.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/mat4.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/quaternion.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/plane.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/aabb.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/ray2.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/ray3.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCArray.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccCArray.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCDataVisitor.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCGL.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/mat3.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/mat4.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/quaternion.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/plane.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/aabb.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/ray2.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/ray3.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCArray.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccCArray.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCDataVisitor.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCGL.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/KHR/khrplatform.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccGLStateCache.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCGLProgram.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCScriptSupport.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/CCCommon.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCTouch.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEventTouch.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEvent.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEventKeyboard.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCSet.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccGLStateCache.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCGLProgram.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCScriptSupport.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/CCCommon.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCTouch.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEventTouch.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEvent.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEventKeyboard.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCSet.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/set \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/list \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCProtocols.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccTypes.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCTexture2D.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEventDispatcher.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEventListener.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCProtocols.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccTypes.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCTexture2D.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEventDispatcher.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEventListener.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/unordered_map \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCVector.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCTextureAtlas.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/renderer/CCBatchCommand.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/renderer/CCRenderCommand.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccTypes.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/matrix.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../mat4.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../vec3.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCGLProgram.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/renderer/CCRenderCommandPool.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/renderer/CCCustomCommand.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCFontAtlas.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCData.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/ft2build.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftheader.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/freetype.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftconfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftoption.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftstdlib.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCVector.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCTextureAtlas.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/renderer/CCBatchCommand.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/renderer/CCRenderCommand.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccTypes.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/matrix.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../mat4.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../vec3.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCGLProgram.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/renderer/CCRenderCommandPool.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/renderer/CCCustomCommand.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCFontAtlas.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCData.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/ft2build.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftheader.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/freetype.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftconfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftoption.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftstdlib.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/setjmp.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/setjmp.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fttypes.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftsystem.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftimage.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fterrors.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftmoderr.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fterrdef.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftstroke.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftoutln.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftglyph.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/CCFileUtils.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCValue.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/edtaa3func/edtaa3func.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftbbox.h
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fttypes.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftsystem.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftimage.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fterrors.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftmoderr.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fterrdef.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftstroke.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftoutln.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftglyph.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/CCFileUtils.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCValue.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/edtaa3func/edtaa3func.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftbbox.h
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdio.h:
 
@@ -150,33 +150,33 @@ obj/local/armeabi/objs/cocos2dx_static/CCFontFreeType.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccUTF8.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccUTF8.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCFontFreeType.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCFontFreeType.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCFont.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCFont.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCLabel.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCLabel.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCSpriteBatchNode.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCSpriteBatchNode.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCNode.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCNode.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccMacros.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccMacros.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/select.h:
 
@@ -186,51 +186,51 @@ obj/local/armeabi/objs/cocos2dx_static/CCFontFreeType.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccMacros.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccMacros.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCAffineTransform.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCAffineTransform.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/kazmath.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/kazmath.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/vec2.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/vec2.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/vec3.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/vec3.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/assert.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/mat3.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/mat3.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/mat4.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/mat4.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/quaternion.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/quaternion.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/plane.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/plane.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/aabb.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/aabb.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/ray2.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/ray2.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/ray3.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/ray3.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCArray.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCArray.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccCArray.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccCArray.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCDataVisitor.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCDataVisitor.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCGL.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCGL.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h:
 
@@ -240,108 +240,108 @@ obj/local/armeabi/objs/cocos2dx_static/CCFontFreeType.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccGLStateCache.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccGLStateCache.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCGLProgram.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCGLProgram.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCScriptSupport.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCScriptSupport.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/CCCommon.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/CCCommon.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCTouch.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCTouch.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEventTouch.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEventTouch.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEvent.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEvent.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEventKeyboard.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEventKeyboard.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCSet.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCSet.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/set:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/list:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCProtocols.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCProtocols.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccTypes.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccTypes.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCTexture2D.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCTexture2D.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEventDispatcher.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEventDispatcher.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCEventListener.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCEventListener.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/unordered_map:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCVector.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCVector.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCTextureAtlas.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCTextureAtlas.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/renderer/CCBatchCommand.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/renderer/CCBatchCommand.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/renderer/CCRenderCommand.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/renderer/CCRenderCommand.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccTypes.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccTypes.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/matrix.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/matrix.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../mat4.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../mat4.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../vec3.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/GL/../vec3.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCGLProgram.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCGLProgram.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/renderer/CCRenderCommandPool.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/renderer/CCRenderCommandPool.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/renderer/CCCustomCommand.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/renderer/CCCustomCommand.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/CCFontAtlas.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/CCFontAtlas.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCData.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCData.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/ft2build.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/ft2build.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftheader.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftheader.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/freetype.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/freetype.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftconfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftconfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftoption.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftoption.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftstdlib.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/config/ftstdlib.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/setjmp.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/setjmp.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fttypes.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fttypes.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftsystem.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftsystem.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftimage.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftimage.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fterrors.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fterrors.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftmoderr.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftmoderr.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fterrdef.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/fterrdef.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftstroke.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftstroke.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftoutln.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftoutln.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftglyph.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftglyph.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/CCFileUtils.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/CCFileUtils.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCValue.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCValue.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/edtaa3func/edtaa3func.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/edtaa3func/edtaa3func.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftbbox.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/freetype2/prebuilt/android/../../include/android/freetype2/freetype/ftbbox.h:

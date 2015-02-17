@@ -1,13 +1,13 @@
 obj/local/armeabi/objs/box2d_static/Collision/b2BroadPhase.o: \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/Collision/b2BroadPhase.cpp \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2BroadPhase.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/Collision/b2BroadPhase.cpp \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2BroadPhase.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/assert.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/types.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdint.h \
@@ -28,16 +28,16 @@ obj/local/armeabi/objs/box2d_static/Collision/b2BroadPhase.o: \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/limits.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/page.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2DynamicTree.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2GrowableStack.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2DynamicTree.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2GrowableStack.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/string.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/malloc.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2BroadPhase.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2BroadPhase.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Settings.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/assert.h:
 
@@ -47,9 +47,9 @@ obj/local/armeabi/objs/box2d_static/Collision/b2BroadPhase.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2Collision.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2Math.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h:
 
@@ -91,9 +91,9 @@ obj/local/armeabi/objs/box2d_static/Collision/b2BroadPhase.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/page.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2DynamicTree.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Collision/b2DynamicTree.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2GrowableStack.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/external/Box2D/../Box2D/Common/b2GrowableStack.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h:
 

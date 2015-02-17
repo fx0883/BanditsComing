@@ -1,5 +1,5 @@
 obj/local/armeabi/objs/cocos2dx_static/__/__/external/unzip/unzip.o: \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/unzip/unzip.cpp \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/unzip/unzip.cpp \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdio.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -24,11 +24,11 @@ obj/local/armeabi/objs/cocos2dx_static/__/__/external/unzip/unzip.o: \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/zlib.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/zconf.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/unzip/unzip.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/unzip/unzip.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/errno.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/errno.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/errno.h \
@@ -83,15 +83,15 @@ obj/local/armeabi/objs/cocos2dx_static/__/__/external/unzip/unzip.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/zconf.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/unzip/unzip.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/unzip/unzip.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/unzip/ioapi.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/errno.h:
 

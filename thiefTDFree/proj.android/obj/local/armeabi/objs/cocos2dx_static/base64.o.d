@@ -1,5 +1,5 @@
 obj/local/armeabi/objs/cocos2dx_static/base64.o: \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/base64.cpp \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/base64.cpp \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdio.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -22,7 +22,7 @@ obj/local/armeabi/objs/cocos2dx_static/base64.o: \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/alloca.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/strings.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/base64.h
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/base64.h
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdio.h:
 
@@ -68,4 +68,4 @@ obj/local/armeabi/objs/cocos2dx_static/base64.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/base64.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/base64.h:

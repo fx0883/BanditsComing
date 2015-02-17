@@ -1,6 +1,6 @@
 obj/local/armeabi/objs/cocos2dx_static/__/math/kazmath/kazmath/utility.o: \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.c \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.c \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -26,7 +26,7 @@ obj/local/armeabi/objs/cocos2dx_static/__/math/kazmath/kazmath/utility.o: \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/page.h
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../math/kazmath/kazmath/utility.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h:
 

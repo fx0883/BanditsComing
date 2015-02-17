@@ -1,14 +1,14 @@
 obj/local/armeabi/objs/cocos2dx_static/__/physics/CCPhysicsShape.o: \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.cpp \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.cpp \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -33,70 +33,70 @@ obj/local/armeabi/objs/cocos2dx_static/__/physics/CCPhysicsShape.o: \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/page.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/functional \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccMacros.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccMacros.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/select.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/thread \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/vector \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/map \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdlib.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/alloca.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/strings.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/climits \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk_types.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpVect.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBB.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpatialIndex.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBody.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpShape.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpPolyShape.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpArbiter.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpace.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsBody.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCVector.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk_types.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpVect.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBB.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpatialIndex.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBody.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpShape.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpPolyShape.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpArbiter.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpace.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsBody.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCVector.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCRef.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsWorld.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsWorld.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/list \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsBodyInfo_chipmunk.h \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsShapeInfo_chipmunk.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsBodyInfo_chipmunk.h \
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsShapeInfo_chipmunk.h \
  /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/unordered_map \
- /Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsHelper_chipmunk.h
+ /workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsHelper_chipmunk.h
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsShape.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformConfig.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCPlatformDefine.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCGeometry.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h:
 
@@ -146,9 +146,9 @@ obj/local/armeabi/objs/cocos2dx_static/__/physics/CCPhysicsShape.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/functional:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccMacros.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccMacros.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCConsole.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/select.h:
 
@@ -160,9 +160,9 @@ obj/local/armeabi/objs/cocos2dx_static/__/physics/CCPhysicsShape.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/platform/android/CCStdC.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCPlatformMacros.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdlib.h:
 
@@ -172,68 +172,68 @@ obj/local/armeabi/objs/cocos2dx_static/__/physics/CCPhysicsShape.o: \
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/ccConfig.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/ccConfig.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/climits:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk_types.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/chipmunk_types.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpVect.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpVect.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBB.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBB.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpatialIndex.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpatialIndex.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBody.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpBody.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpShape.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpShape.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpPolyShape.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpPolyShape.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpArbiter.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpArbiter.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpace.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../../external/chipmunk/include/chipmunk/cpSpace.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsBody.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsBody.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCVector.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCVector.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../base/CCRef.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsWorld.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/CCPhysicsWorld.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/list:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsBodyInfo_chipmunk.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsBodyInfo_chipmunk.h:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsShapeInfo_chipmunk.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsShapeInfo_chipmunk.h:
 
 /Users/fengxuan/Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.8/include/unordered_map:
 
-/Users/fengxuan/Desktop/cocos2d-x-3.0rc0/templates/cpp-template-default/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsHelper_chipmunk.h:
+/workCode/BanditsComing/thiefTDFree/proj.android/../cocos2d/cocos/2d/../physics/chipmunk/CCPhysicsHelper_chipmunk.h:

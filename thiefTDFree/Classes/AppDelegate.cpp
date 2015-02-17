@@ -7,7 +7,7 @@ USING_NS_CC;
 
 
 
-using namespace cn::sharesdk;
+
 extern"C"{
     
     size_t fwrite$UNIX2003( const void *a, size_t b, size_t c, FILE *d )
@@ -39,9 +39,13 @@ AppDelegate::~AppDelegate()
 bool AppDelegate::applicationDidFinishLaunching() {
     
 
-    
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     //初始化社交平台信息
     this -> initPlatformConfig();
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    //Android codes
+#endif
+
     
     
     // initialize director 
@@ -110,6 +114,11 @@ void AppDelegate::applicationWillEnterForeground() {
     // if you use SimpleAudioEngine, it must resume here
     // SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
 }
+
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+//初始化社交平台信息
+
 
 void AppDelegate::initPlatformConfig()
 {
@@ -295,3 +304,6 @@ void AppDelegate::initPlatformConfig()
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeVKontakte, vkConfigDict);
 }
 
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+//Android codes
+#endif
