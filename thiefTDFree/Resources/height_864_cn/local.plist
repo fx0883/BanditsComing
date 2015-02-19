@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>ShareDescription</key>
-	<string>In mainland with a magical power, the wizard creates a powerful stone, it maintains the energy balance of the continent, but there is a evil force emerged from the darkness, and their purpose is to destroy the stone house, to gain control of the mainland, the young warrior you mission is to protect stone house, the aggression of the defeat the enemy, are you ready?</string>
+	<string>在一个拥有神奇能量的大陆，魔法师制造了一个强大的石屋，它维护着这片大陆能量平衡，但是有一股邪恶的势力从黑暗中出现，它们的目的是破坏石屋，获得大陆的控制权，年轻的勇士你得使命是守护石屋，击退来势汹涌的敌人，你准备好了吗？</string>
 	<key>ShareTitle</key>
-	<string>Bandits Coming</string>
+	<string>小心贼</string>
 	<key>ShareContent</key>
-	<string>Combat warriors</string>
+	<string>保卫石屋</string>
 	<key>Music</key>
-	<string>Music</string>
+	<string>音乐</string>
 	<key>Effect</key>
-	<string>Effect</string>
+	<string>音效</string>
 </dict>
 </plist>

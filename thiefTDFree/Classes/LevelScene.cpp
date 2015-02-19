@@ -141,10 +141,10 @@ bool LevelScene::init()
         
         
         //加入 setting 按钮
-        Sprite *settingItem1 = CCSprite::createWithSpriteFrameName("playbutton1.png");
-        Sprite *settingItem2 = CCSprite::createWithSpriteFrameName("playbutton2.png");
+        Sprite *settingItem1 = CCSprite::create("settings.png");
+        Sprite *settingItem2 = CCSprite::create("settings.png");
         MenuItemSprite *pSettingItem = MenuItemSprite::create(settingItem1, settingItem2, CC_CALLBACK_1(LevelScene::menuSettingCallback, this));
-        pSettingItem->setPosition(Point(40, 80));
+        pSettingItem->setPosition(Point(40, 90));
         pSettingItem->setAnchorPoint(Point(0.5, 0.5f));
         Menu* pMenu = Menu::create(pSettingItem, NULL);
         pMenu->setPosition(Point::ZERO);
@@ -155,10 +155,10 @@ bool LevelScene::init()
         
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
         //加入 分享 按钮
-        Sprite *shareSdkItem1 = CCSprite::createWithSpriteFrameName("playbutton1.png");
-        Sprite *shareSdkItem2 = CCSprite::createWithSpriteFrameName("playbutton2.png");
+        Sprite *shareSdkItem1 = CCSprite::create("shared.png");
+        Sprite *shareSdkItem2 = CCSprite::create("shared.png");
         MenuItemSprite *pShareSDKItem = MenuItemSprite::create(shareSdkItem1, shareSdkItem2, CC_CALLBACK_1(LevelScene::menuShareSDKCallback, this));
-        pShareSDKItem->setPosition(Point(40, 120));
+        pShareSDKItem->setPosition(Point(40, 140));
         pShareSDKItem->setAnchorPoint(Point(0.5, 0.5f));
         Menu* pMenuShareSdk = Menu::create(pShareSDKItem, NULL);
         pMenuShareSdk->setPosition(Point::ZERO);

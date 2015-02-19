@@ -230,8 +230,8 @@ void PlayLayer::menuSettingCallback(Ref* pSender)
 //    popup->addButton("start_1.png", "start_1.png", "Ok", 0);
 //    popup->addButton("start_1.png", "start_1.png", "Cancel", 1);
     popup->addButton("btnBack.png", "btnBack.png", "", 0);//返回
-    popup->addButton("btnNext.png", "btnNext.png", "", 1);//选关
-    popup->addButton("btnStart.png", "btnStart.png", "", 2);//重新开始
+    popup->addButton("btnSelectPass.png", "btnSelectPass.png", "", 1);//选关
+    popup->addButton("btnRestart.png", "btnRestart.png", "", 2);//重新开始
 
     
     this->addChild(popup,1000);
