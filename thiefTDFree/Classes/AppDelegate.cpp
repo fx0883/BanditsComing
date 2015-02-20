@@ -57,7 +57,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     }
     
     // turn on display FPS
-    director->setDisplayStats(true);
+    director->setDisplayStats(false);
     
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
@@ -205,32 +205,32 @@ void AppDelegate::initPlatformConfig()
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeCopy, NULL);
     
     //搜狐微博
-    CCDictionary *shwbConfigDict = CCDictionary::create();
-    shwbConfigDict -> setObject(CCString::create("SAfmTG1blxZY3HztESWx"), "consumer_key");
-    shwbConfigDict -> setObject(CCString::create("yfTZf)!rVwh*3dqQuVJVsUL37!F)!yS9S!Orcsij"), "consumer_secret");
-    shwbConfigDict -> setObject(CCString::create("http://www.sharesdk.cn"), "callback_uri");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeSohuWeibo, shwbConfigDict);
-    
-    //网易微博
-    CCDictionary *neConfigDict = CCDictionary::create();
-    neConfigDict -> setObject(CCString::create("T5EI7BXe13vfyDuy"), "consumer_key");
-    neConfigDict -> setObject(CCString::create("gZxwyNOvjFYpxwwlnuizHRRtBRZ2lV1j"), "consumer_secret");
-    neConfigDict -> setObject(CCString::create("http://www.shareSDK.cn"), "redirect_uri");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatType163Weibo, neConfigDict);
+//    CCDictionary *shwbConfigDict = CCDictionary::create();
+//    shwbConfigDict -> setObject(CCString::create("SAfmTG1blxZY3HztESWx"), "consumer_key");
+//    shwbConfigDict -> setObject(CCString::create("yfTZf)!rVwh*3dqQuVJVsUL37!F)!yS9S!Orcsij"), "consumer_secret");
+//    shwbConfigDict -> setObject(CCString::create("http://www.sharesdk.cn"), "callback_uri");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeSohuWeibo, shwbConfigDict);
+//    
+//    //网易微博
+//    CCDictionary *neConfigDict = CCDictionary::create();
+//    neConfigDict -> setObject(CCString::create("T5EI7BXe13vfyDuy"), "consumer_key");
+//    neConfigDict -> setObject(CCString::create("gZxwyNOvjFYpxwwlnuizHRRtBRZ2lV1j"), "consumer_secret");
+//    neConfigDict -> setObject(CCString::create("http://www.shareSDK.cn"), "redirect_uri");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatType163Weibo, neConfigDict);
     
     //豆瓣
-    CCDictionary *dbConfigDict = CCDictionary::create();
-    dbConfigDict -> setObject(CCString::create("02e2cbe5ca06de5908a863b15e149b0b"), "api_key");
-    dbConfigDict -> setObject(CCString::create("9f1e7b4f71304f2f"), "secret");
-    dbConfigDict -> setObject(CCString::create("http://www.sharesdk.cn"), "redirect_uri");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeDouBan, dbConfigDict);
-    
-    //印象笔记
-    CCDictionary *enConfigDict = CCDictionary::create();
-    enConfigDict -> setObject(CCString::create("sharesdk-7807"), "consumer_key");
-    enConfigDict -> setObject(CCString::create("d05bf86993836004"), "consumer_secret");
-    enConfigDict -> setObject(CCString::create("0"), "host_type");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeEvernote, enConfigDict);
+//    CCDictionary *dbConfigDict = CCDictionary::create();
+//    dbConfigDict -> setObject(CCString::create("02e2cbe5ca06de5908a863b15e149b0b"), "api_key");
+//    dbConfigDict -> setObject(CCString::create("9f1e7b4f71304f2f"), "secret");
+//    dbConfigDict -> setObject(CCString::create("http://www.sharesdk.cn"), "redirect_uri");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeDouBan, dbConfigDict);
+//    
+//    //印象笔记
+//    CCDictionary *enConfigDict = CCDictionary::create();
+//    enConfigDict -> setObject(CCString::create("sharesdk-7807"), "consumer_key");
+//    enConfigDict -> setObject(CCString::create("d05bf86993836004"), "consumer_secret");
+//    enConfigDict -> setObject(CCString::create("0"), "host_type");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeEvernote, enConfigDict);
     
     //LinkedIn
     CCDictionary *liConfigDict = CCDictionary::create();
@@ -257,25 +257,25 @@ void AppDelegate::initPlatformConfig()
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeInstapaper, ipConfigDict);
     
     //有道云笔记
-    CCDictionary *ydConfigDict = CCDictionary::create();
-    ydConfigDict -> setObject(CCString::create("dcde25dca105bcc36884ed4534dab940"), "consumer_key");
-    ydConfigDict -> setObject(CCString::create("d98217b4020e7f1874263795f44838fe"), "consumer_secret");
-    ydConfigDict -> setObject(CCString::create("http://www.sharesdk.cn/"), "oauth_callback");
-    ydConfigDict -> setObject(CCString::create("1"), "host_type");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeYouDaoNote, ydConfigDict);
-    
-    //搜狐随身看
-    CCDictionary *shkConfigDict = CCDictionary::create();
-    shkConfigDict -> setObject(CCString::create("e16680a815134504b746c86e08a19db0"), "app_key");
-    shkConfigDict -> setObject(CCString::create("b8eec53707c3976efc91614dd16ef81c"), "app_secret");
-    shkConfigDict -> setObject(CCString::create("http://sharesdk.cn"), "redirect_uri");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeSohuKan, shkConfigDict);
-    
-    //Flickr
-    CCDictionary *flickrConfigDict = CCDictionary::create();
-    flickrConfigDict -> setObject(CCString::create("33d833ee6b6fca49943363282dd313dd"), "api_key");
-    flickrConfigDict -> setObject(CCString::create("3a2c5b42a8fbb8bb"), "api_secret");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeFlickr, flickrConfigDict);
+//    CCDictionary *ydConfigDict = CCDictionary::create();
+//    ydConfigDict -> setObject(CCString::create("dcde25dca105bcc36884ed4534dab940"), "consumer_key");
+//    ydConfigDict -> setObject(CCString::create("d98217b4020e7f1874263795f44838fe"), "consumer_secret");
+//    ydConfigDict -> setObject(CCString::create("http://www.sharesdk.cn/"), "oauth_callback");
+//    ydConfigDict -> setObject(CCString::create("1"), "host_type");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeYouDaoNote, ydConfigDict);
+//    
+//    //搜狐随身看
+//    CCDictionary *shkConfigDict = CCDictionary::create();
+//    shkConfigDict -> setObject(CCString::create("e16680a815134504b746c86e08a19db0"), "app_key");
+//    shkConfigDict -> setObject(CCString::create("b8eec53707c3976efc91614dd16ef81c"), "app_secret");
+//    shkConfigDict -> setObject(CCString::create("http://sharesdk.cn"), "redirect_uri");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeSohuKan, shkConfigDict);
+//    
+//    //Flickr
+//    CCDictionary *flickrConfigDict = CCDictionary::create();
+//    flickrConfigDict -> setObject(CCString::create("33d833ee6b6fca49943363282dd313dd"), "api_key");
+//    flickrConfigDict -> setObject(CCString::create("3a2c5b42a8fbb8bb"), "api_secret");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeFlickr, flickrConfigDict);
     
     //Tumblr
     CCDictionary *tumblrConfigDict = CCDictionary::create();
@@ -285,23 +285,23 @@ void AppDelegate::initPlatformConfig()
     C2DXShareSDK::setPlatformConfig(C2DXPlatTypeTumblr, tumblrConfigDict);
     
     //Dropbox
-    CCDictionary *dropboxConfigDict = CCDictionary::create();
-    dropboxConfigDict -> setObject(CCString::create("7janx53ilz11gbs"), "app_key");
-    dropboxConfigDict -> setObject(CCString::create("c1hpx5fz6tzkm32"), "app_secret");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeDropbox, dropboxConfigDict);
+//    CCDictionary *dropboxConfigDict = CCDictionary::create();
+//    dropboxConfigDict -> setObject(CCString::create("7janx53ilz11gbs"), "app_key");
+//    dropboxConfigDict -> setObject(CCString::create("c1hpx5fz6tzkm32"), "app_secret");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeDropbox, dropboxConfigDict);
     
     //Instagram
-    CCDictionary *instagramConfigDict = CCDictionary::create();
-    instagramConfigDict -> setObject(CCString::create("ff68e3216b4f4f989121aa1c2962d058"), "client_id");
-    instagramConfigDict -> setObject(CCString::create("1b2e82f110264869b3505c3fe34e31a1"), "client_secret");
-    instagramConfigDict -> setObject(CCString::create("http://sharesdk.cn"), "redirect_uri");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeInstagram, instagramConfigDict);
+//    CCDictionary *instagramConfigDict = CCDictionary::create();
+//    instagramConfigDict -> setObject(CCString::create("ff68e3216b4f4f989121aa1c2962d058"), "client_id");
+//    instagramConfigDict -> setObject(CCString::create("1b2e82f110264869b3505c3fe34e31a1"), "client_secret");
+//    instagramConfigDict -> setObject(CCString::create("http://sharesdk.cn"), "redirect_uri");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeInstagram, instagramConfigDict);
     
     //VK
-    CCDictionary *vkConfigDict = CCDictionary::create();
-    vkConfigDict -> setObject(CCString::create("3921561"), "application_id");
-    vkConfigDict -> setObject(CCString::create("6Qf883ukLDyz4OBepYF1"), "secret_key");
-    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeVKontakte, vkConfigDict);
+//    CCDictionary *vkConfigDict = CCDictionary::create();
+//    vkConfigDict -> setObject(CCString::create("3921561"), "application_id");
+//    vkConfigDict -> setObject(CCString::create("6Qf883ukLDyz4OBepYF1"), "secret_key");
+//    C2DXShareSDK::setPlatformConfig(C2DXPlatTypeVKontakte, vkConfigDict);
 }
 
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)

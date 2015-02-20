@@ -35,6 +35,11 @@ public:
         return ret;
     }
     
+    Size getSize()
+    {
+       return _slider->getBoundingBox().size;
+    }
+    
     float getValue() const
     {
         return _slider->getValue();
@@ -230,6 +235,15 @@ void SettingLayer::addChildAt(Node *node, float percentageX, float percentageY)
     this->addChild(node);
 }
 
+void SettingLayer::addChildAtFloat(Node *node, float floatX, float floatY)
+{
+    //const Size size = VisibleRect::getVisibleRect().size;
+    node->setPosition(Point(floatX,floatY));
+    this->addChild(node);
+}
+
+
+
 void SettingLayer::addSliders()
 {
     float fMusicVolume = GameManager::getInstance()->getMusicVolume();
@@ -247,17 +261,19 @@ void SettingLayer::addSliders()
     const char *strChr=FSLocalizedNSStringByKey("Music");
     std::string strMusic(strChr);
     auto lblPitch = LabelTTF::create(strMusic, "Arial", 14);
-    addChildAt(lblPitch, 0.34f, 0.6f);
+    
     _sliderMusic = AudioSlider::create(AudioSlider::Horizontal);
     _sliderMusic->setValue(0, 1.0f, fMusicVolume);
     addChildAt(_sliderMusic, 0.55f, 0.6f);
+    addChildAtFloat(lblPitch, _sliderMusic->getPositionX()-_sliderMusic->getSize().width/2 - lblPitch->boundingBox().size.width-2, _sliderMusic->getPositionY());
     
     std::string strEffect(FSLocalizedNSStringByKey("Effect"));
     auto lblPan = LabelTTF::create(strEffect, "Arial", 14);
-    addChildAt(lblPan, 0.34f, 0.5f);
+//    addChildAt(lblPan, 0.34f, 0.5f);
     _sliderEffect = AudioSlider::create(AudioSlider::Horizontal);
     _sliderEffect->setValue(0, 1.0f, fEffectVolume);
     addChildAt(_sliderEffect, 0.55f, 0.5f);
+       addChildAtFloat(lblPan, _sliderEffect->getPositionX()-_sliderEffect->getSize().width/2-lblPan->boundingBox().size.width-2, _sliderEffect->getPositionY());
 }
 
 //全部参数都设定好后，在运行时动态加载

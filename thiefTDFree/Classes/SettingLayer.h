@@ -51,6 +51,7 @@ public:
     CREATE_FUNC(SettingLayer);
     
     void addChildAt(Node *node, float percentageX, float percentageY);
+    void addChildAtFloat(Node *node, float floatX, float floatY);
     void addSliders();
     
     void updateVolumes(float);

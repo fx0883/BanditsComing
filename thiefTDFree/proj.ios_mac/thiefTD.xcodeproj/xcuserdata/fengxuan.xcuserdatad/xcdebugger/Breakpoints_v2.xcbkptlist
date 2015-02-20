@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/SettingLayer.cpp"
-            timestampString = "444884982.29198"
+            timestampString = "446096541.246912"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "342"
-            endingLineNumber = "342"
+            startingLineNumber = "358"
+            endingLineNumber = "358"
             landmarkName = "SettingLayer::updateVolumes(float)"
             landmarkType = "5">
          </BreakpointContent>
@@ -34,38 +34,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Classes/LevelSelectLayer2.cpp"
-            timestampString = "445171241.653307"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "LevelSelectLayer2::menuCloseCallback0(Ref* pSender)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Classes/LevelSelectLayer2.cpp"
-            timestampString = "445171248.830766"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "LevelSelectLayer2::menuCloseCallback0(Ref* pSender)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "../cocos2d/cocos/2d/platform/apple/CCFileUtilsApple.mm"
             timestampString = "446029529.195049"
             startingColumnNumber = "9223372036854775807"
@@ -73,22 +41,6 @@
             startingLineNumber = "251"
             endingLineNumber = "251"
             landmarkName = "FileUtilsApple::isFileExist(const std::string&amp; filePath)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Classes/LoadingResScene.cpp"
-            timestampString = "446032371.79657"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "LoadingResScene::loadResources()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
