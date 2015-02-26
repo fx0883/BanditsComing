@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Bandits Coming</string>
+    <string name="exit_hint">Again according to exit the game</string>
 </resources>

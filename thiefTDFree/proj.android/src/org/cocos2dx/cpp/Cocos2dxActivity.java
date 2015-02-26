@@ -1,5 +1,6 @@
 package org.cocos2dx.cpp;
 
+
 import android.app.NativeActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -41,7 +42,7 @@ public class Cocos2dxActivity extends NativeActivity{
 	    if (keyCode == KeyEvent.KEYCODE_BACK) {
 	        if ((System.currentTimeMillis() - mkeyTime) > 2000) {
 	            mkeyTime = System.currentTimeMillis();
-	            Toast.makeText(this, "再按一次退出游戏", Toast.LENGTH_LONG).show();
+	            Toast.makeText(this,com.BanditsComing.app2.R.string.exit_hint, Toast.LENGTH_LONG).show();
 	        } else {
 	            finish();
 	            System.exit(0);
